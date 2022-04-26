@@ -1,0 +1,46 @@
+.panel {
+    border: 1px solid $white-3;
+}
+.panel-heading {
+    height: 70px;
+    border-bottom: 1px solid $white-3;
+}
+.panel-heading-txt {
+    font-size: 16px;
+    line-height: 70px;
+    font-weight: 700;
+    color: $color-2;
+}
+.checkout-label {
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.checkout-form {
+    width: 100%;
+    height: 35px;
+    background: $white-3;
+    border: 1px solid $white-3;
+    font-size: 14px;
+    color: $black;
+    outline: none;
+    &:invalid {
+        color: rgba($black, 0.75);
+        option {
+            color: $black;
+        }
+    }
+    &:focus {
+        background: transparent;
+        border-color: $color-1;
+    }
+}
+.billing-details-title {
+    border-bottom: 1px solid $white-3;
+}
+.billing-details {
+    border-bottom: 1px solid $white-3;
+}
+.billing-details-list {
+    min-width: 80px;
+}

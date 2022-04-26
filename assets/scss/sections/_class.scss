@@ -1,0 +1,65 @@
+.class-card {
+    box-shadow: 0px 0px 10px 0px rgba($black, 0.1);
+}
+.class-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: $color-2;
+    &:hover {
+        color: $color-1;
+    }
+}
+.vertical-border {
+    width: 1px;
+    background: rgba($black, 0.2);
+}
+.class-card:hover .part-img img {
+    transform: scale(1.1);
+}
+
+.class-card .part-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.class-card .part-img img {
+    transition: all .3s;
+}
+
+@keyframes wobble-vertical {
+    16.65% {
+        transform: translateY(8px);
+    }
+    33.3% {
+        transform: translateY(-6px);
+    }
+    49.95% {
+        transform: translateY(4px);
+    }
+    66.6% {
+        transform: translateY(-2px);
+    }
+    83.25% {
+        transform: translateY(1px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.counter-box:hover img {
+    animation-name: wobble-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .class-info.d-flex {
+        flex-direction: column;
+        grid-gap: 5px;
+    }
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}

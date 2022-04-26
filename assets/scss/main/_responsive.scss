@@ -1,0 +1,6307 @@
+/*col-lg*/
+/*laptop*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .section-heading.mb-70 {
+        margin-bottom: 60px;
+    }
+    .def-btn {
+        padding: 0 22px;
+    }
+    .bottom-footer-social.mr-30 {
+        margin-right: 15px;
+    }
+
+    /* ====================================================
+    Home page
+    ==================================================== */
+
+    
+    /* ======================
+    Header section
+    ====================== */
+    .header-txt {
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+    .header-txt.pr-30 {
+        padding-right: 15px;
+    }
+    .header-txt.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-txt.pl-30 {
+        padding-left: 15px;
+    }
+    .header-right-txt {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .nav-item.pr-20 {
+        padding-right: 15px;
+    }
+    .nav-item.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .nav-item.pl-20 {
+        padding-left: 15px;
+    }
+    
+    /* ======================
+    Header section Two (2)
+    ====================== */
+    .nav-cart.mr-75 {
+        margin-right: 25px;
+    }
+    
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 140px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 8px;
+    }
+    .banner-title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 8px;
+    }
+    
+    /* ======================
+    Banner section Two (2)
+    ====================== */
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 8px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 8px;
+    }
+    .banner-txt.p-200 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 30px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-part-icon.mr-20 {
+        margin-right: 15px;
+    }
+    .feature-txt {
+        width: calc(100% - 85px);
+    }
+    .divider.m-30 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 130px;
+    }
+    .feature-title.mt--16 {
+        margin-top: -12px;
+    }
+    .feature-sub-title-2.mt-1 {
+        margin-top: 2px !important;
+    }
+    
+    /* ======================
+    CTA section
+    ====================== */
+    .cta-title {
+        font-size: 45px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -11px;
+    }
+    
+    /* ======================
+    App Download section Two (2)
+    ====================== */
+    .app-download-title {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -11px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 33px;
+    }
+    
+    /* ======================
+    Counter section
+    ====================== */
+    .counter-txt {
+        font-size: 40px;
+    }
+    .counter-txt.mb-20 {
+        margin-bottom: 16px;
+    }
+    
+    /* ======================
+    Blog section
+    ====================== */
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-title {
+        font-size: 20px;
+    }
+    .blog-title.mb-20 {
+        margin-bottom: 11px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .blog-single-stat {
+        font-size: 14px;
+        img {
+            width: 12px;
+            &.mr-10 {
+                margin-right: 5px;
+            }
+        }
+    }
+    
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-info-icon-wrap {
+        height: 35px;
+    }
+    .footer-info-icon-wrap.mr-20 {
+        margin-right: 10px;
+    }
+    .footer-info-txt {
+        font-size: 16px;
+    }
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 20px;
+    }
+    .footer-social-icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        &.mr-15 {
+            margin-right: 5px;
+        }
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-card.px-20 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class-details-video.p-125 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .panel-heading.px-60 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .panel-body.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .panel-body.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .single-blog-txt.p-40 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .single-blog-txt.px-45 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-page-blog-title {
+        font-size: 25px;
+    }
+    .blog-page-blog-title.mt--10 {
+        margin-top: -8px;
+    }
+    .blog-page-blog-title.mb-8 {
+        margin-bottom: 9px;
+    }
+    .ig-posts {
+        gap: 5px;
+    }
+    .ig-single-post {
+        width: calc(100% / 3 - 4px);
+    }
+}
+
+/*as col-md*/
+/*tablet device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .single-content-wrapper.mr-30 {
+        margin-right: 0;
+    }
+    .section-heading.mb-70 {
+        margin-bottom: 40px;
+    }
+    .section-heading.mb-60 {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .section-title.mt--8 {
+        margin-top: -7px;
+    }
+    .section-title.mb-15 {
+        margin-bottom: 12px;
+    }
+    .heading-sub-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    /* ====================================================
+    Home page
+    ==================================================== */
+
+    
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .top-left .d-sm-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-txt {
+        padding: 0 10px;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-right-txt {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        border-top: 1px solid rgba($white, 0.3);
+        border-bottom: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 115px;
+    }
+    .banner-txt.p-180 {
+        padding: 220px 0;
+        padding-bottom: 130px;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .banner-subtitle.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-paragraph.mb-11 {
+        margin-bottom: 7px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 75px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 24px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title.mt--7 {
+        margin-top: -6px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+    .feature-txt p.mt--6 {
+        margin-top: -5px;
+    }
+    .feature-img {
+        width: 296px;
+        margin: auto;
+    }
+
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 100px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 45px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+    .feature-txt p.mb--8 {
+        margin-bottom: -7px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+    .cta-title {
+        font-size: 40px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+
+    /* ======================
+    About section
+    ====================== */
+    .about-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .about-title.mt--8 {
+        margin-top: -7px;
+    }
+    .about-title.mb-25 {
+        margin-bottom: 12px;
+    }
+    .about p.fw-bold {
+        font-weight: 500 !important;
+    }
+    .about p.mb-16 {
+        margin-bottom: 12px;
+    }
+    .about p.mb-35 {
+        margin-bottom: 21px;
+    }
+    .about-list {
+        font-size: 14px;
+        font-weight: 500 !important;
+        &.mt--7 {
+            margin-top: -5px;
+        }
+        &.mb--7 {
+            margin-bottom: -6px;
+        }
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+    .btn-box.pt-40 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-title {
+        font-size: 18px;
+    }
+    .class-title.mt--7 {
+        margin-top: -9px;
+    }
+    .class-title.mb-6 {
+        margin-bottom: 8px;
+    }
+    .class-time {
+        font-size: 14px;
+    }
+    .class-time.mb-15 {
+        margin-bottom: 17px;
+    }
+    .class-info.mt-30 {
+        margin-top: 25px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+    .amount.mt--8 {
+        margin-top: -6px;
+    }
+    .amount.mb--8 {
+        margin-bottom: -7px;
+    }
+    .popular-class-btn.pt-60 {
+        padding-top: 0;
+    }
+
+    /* ======================
+    Counter Class section
+    ====================== */
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 150px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -45px;
+    }
+    .counter-txt {
+        font-size: 30px;
+        &.mb-20 {
+            margin-bottom: 9px;
+        }
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+    .counter-icon {
+        width: 40px;
+    }
+    .counter-icon.mb-21 {
+        margin-bottom: 14px;
+    }
+    .counter-txt.mb-14 {
+        margin-bottom: 9px;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-card-img.mb-30 {
+        margin-bottom: 20px;
+    }
+    .staff-name {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+    .staff-position {
+        font-size: 14px;
+    }
+    .staff-position.mb--8 {
+        margin-bottom: -3px;
+    }
+    .staff-social-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-1 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-2 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-3 {
+        background-size: 40px;
+    }
+
+    /* ======================
+    App Download section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 100px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+
+    .facility-img-area {
+        min-height: 100px;
+    }
+    .facility-card-txt.p-50 {
+        padding: 25px 0;
+    }
+    .facility-card-txt.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .facility-icon {
+        width: 50px;
+        height: 50px;
+        img {
+            width: 60%;
+        }
+    }
+    .facility-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .facility-icon-minus-top {
+        margin-top: -20px;
+    }
+    .facility-title {
+        font-size: 16px;
+    }
+    .facility-title.mt--2 {
+        margin-top: -1px;
+    }
+    .facility-title.mb-25 {
+        margin-bottom: 16px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.pb-17 {
+        padding-bottom: 12px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-image {
+        width: calc(100% / 3 - 24px);
+    }
+    .gallery-image-2 {
+        width: calc(100% / 2);
+    }
+    .gallery-title {
+        font-size: 18px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title {
+        font-size: 14px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .quote-icon {
+        width: 70px;
+    }
+    .quote-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .feedback-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feedback-title.mt--3 {
+        margin-top: -7px;
+    }
+    .feedback-title.mb-17 {
+        margin-bottom: 6px;
+    }
+    .feedback-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .feedback-txt.mb-41 {
+        margin-bottom: 17px;
+    }
+    .client-name {
+        font-size: 14px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-title.mt--2 {
+        margin-top: -6px;
+    }
+    .blog-title.mb-20 {
+        margin-bottom: 7px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .blog-single-stat {
+        font-size: 14px;
+        img {
+            width: auto;
+            height: 12px;
+            &.mr-10 {
+                margin-right: 5px;
+            }
+        }
+    }
+
+
+    /* ======================
+    Contact section
+    ====================== */
+
+    .contact-info-sub-txt {
+        min-width: 80px;
+        font-size: 14px;
+    }
+    .contact-info-txt {
+        font-size: 14px;
+        line-height: 24px;
+        align-items: flex-start;
+    }
+    .contact-info-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .contact-info-txt.mb-62 {
+        margin-bottom: 17px;
+    }
+    .contact-info-txt.mb--8 {
+        margin-bottom: -3px;
+    }
+    .def-form {
+        font-size: 14px;
+    }
+    .def-textarea {
+        font-size: 14px;
+    }
+    .def-textarea.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-info-icon-wrap {
+        height: 25px;
+        img {
+            height: auto;
+            max-height: 100%;
+        }
+    }
+    .footer-info-icon-wrap.mr-20 {
+        margin-right: 10px;
+    }
+    .footer-info-txt-area {
+        width: calc(100% - 30px);
+    }
+    .footer-info-title {
+        font-size: 14px;
+    }
+    .footer-info-txt {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title {
+        font-size: 20px;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-card-txt.mb-26 {
+        margin-bottom: 12px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .footer-input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .footer-input.px-35 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 14px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+
+    .about-2.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-inner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 15px;
+    }
+    .partner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .class-details-teacher-name.fz-18 {
+        font-size: 16px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .class-details-teacher-name .fz-16 {
+        font-size: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .class-comment-title {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .class-comment-title.mt--2 {
+        margin-top: -5px;
+    }
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment-title.mb-21 {
+        margin-bottom: 13px;
+    }
+    .class-comment.ml-100 {
+        margin-left: 30px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .class-comment-username {
+        font-size: 14px;
+    }
+    .class-comment-username.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-details.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-actions {
+        gap: 10px;
+    }
+    .def-form.mb-30 {
+        margin-bottom: 20px;
+    }
+    .comment-textarea {
+        height: 100px;
+    }
+    .comment-textarea.mb-50 {
+        margin-bottom: 20px;
+    }
+    .def-sidebar {
+        max-width: 320px;
+        margin: auto;
+    }
+    .sidebar-box.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-box.mb-50 {
+        margin-bottom: 30px;
+    }
+    .sidebar-title {
+        font-size: 16px;
+    }
+    .sidebar-title.mt--2 {
+        margin-top: -1px;
+    }
+    .sidebar-title.mb-30 {
+        margin-bottom: 20px;
+    }
+    .sidebar-search-box.px-25 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sidebar-search-input {
+        height: 40px;
+    }
+    .sidebar-class-categories.mt--14 {
+        margin-top: -12px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 10px;
+    }
+    .sidebar-class-txt {
+        width: calc(100% - 70px);
+    }
+
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-title {
+        font-size: 20px;
+    }
+    .staff-details-title.mt--3 {
+        margin-top: -1px;
+    }
+    .staff-details-title.mb-10 {
+        margin-bottom: 11px;
+    }
+    .staff-details-title.mb-16 {
+        margin-bottom: 17px;
+    }
+    .staff-info {
+        font-size: 14px;
+    }
+    .staff-info.mb-18 {
+        margin-bottom: 7px;
+    }
+    .staff-info.mb--7 {
+        margin-bottom: -8px;
+    }
+    .about-staff.mb-50 {
+        margin-bottom: 30px;
+    }
+    .staff-details-social.mb-70 {
+        margin-bottom: 30px;
+    }
+    .staff-details-txt {
+        line-height: 24px;
+    }
+    .staff-details-txt.mb-10 {
+        margin-bottom: 12px;
+    }
+    .staff-details-txt.mb-40 {
+        margin-bottom: 24px;
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+    .def-pagination {
+        gap: 5px;
+    }
+    .pagination-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .shop-details-product-title.mb-21 {
+        margin-bottom: 12px;
+    }
+    .shop-card-rating.mb-30 {
+        margin-bottom: 20px;
+    }
+    .shop-details-info-txt.mb-21 {
+        margin-bottom: 11px;
+    }
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .shop-details-price-box.mb-17 {
+        margin-bottom: 14px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .product-details-bottom-part.mt-60 {
+        margin-top: 30px;
+    }
+    .product-details-nav {
+        gap: 5px;
+    }
+    .product-details-nav.mb-30 {
+        margin-bottom: 25px;
+    }
+    .product-details-btn {
+        height: 35px;
+        line-height: 36px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .product-details-btn.px-20 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .product-description.lh-30 {
+        line-height: 24px;
+    }
+    .product-description.mt--8 {
+        margin-top: -5px;
+    }
+    .product-description.mb-40 {
+        margin-bottom: 17px;
+    }
+    .product-description-title.mb-20 {
+        margin-bottom: 10px;
+    }
+    .product-description-feature {
+        font-size: 14px;
+    }
+    .product-information-list {
+        font-size: 14px;
+    }
+    .releted-product.pb-120 {
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Checkout page
+    ==================================================== */
+    .checkout.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .panel.mb-50 {
+        margin-bottom: 24px;
+    }
+    .panel-heading {
+        height: 50px;
+    }
+    .panel-heading.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .panel-heading-txt {
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .panel-body.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .input-box.mb-20 {
+        margin-bottom: 13px;
+    }
+    .checkout-btn.pt-70 {
+        padding-top: 0;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cart-table {
+        min-width: max-content;
+    }
+    .cart-table-bottom.px-30 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .single-blog.mb-40 {
+        margin-bottom: 30px;
+    }
+    .blog-slider-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        left: 10px;
+    }
+    .blog-slider-btn.btn-next {
+        right: 10px;
+    }
+    .blog-image.p-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-image.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-image.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-img-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-img-txt.mt--8 {
+        margin-top: -11px;
+    }
+    .blog-img-txt.mb--11 {
+        margin-bottom: -8px;
+    }
+    .single-blog-txt.p-40 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .single-blog-txt.px-45 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-page-blog-title {
+        display: block;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .blog-page-blog-title.mt--10 {
+        margin-top: -3px;
+    }
+    .blog-page-blog-title.mb-8 {
+        margin-bottom: 14px;
+    }
+    .single-blog-info {
+        gap: 10px !important;
+    }
+    .single-blog-info.mb-21 {
+        margin-bottom: 16px;
+    }
+    .single-blog-info>* {
+        font-size: 14px;
+    }
+    .single-blog-p.mt--6 {
+        margin-top: -10px;
+    }
+    .single-blog-p.mb-22 {
+        margin-bottom: 17px;
+    }
+    .single-blog-p.mb-27 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-box {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-sidebar-box.mb-30 {
+        margin-bottom: 24px;
+    }
+    .blog-sidebar-box.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-search-form.px-25 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-search {
+        height: 30px;
+        font-size: 14px;
+    }
+    .blog-sidebar-title-box {
+        height: 50px;
+    }
+    .blog-sidebar-title-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-title {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-sidebar-box-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-link {
+        font-size: 14px;
+    }
+    .blog-sidebar-link.mt--1 {
+        margin-top: 0;
+    }
+    .blog-sidebar-link.mb-26 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-link .fz-14 {
+        font-size: 12px;
+    }
+    .popular-post.mb-40 {
+        margin-bottom: 20px;
+    }
+    .popular-post-txt {
+        width: calc(100% - 95px);
+    }
+    .popular-post-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .popular-post-title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+    .ig-posts {
+        gap: 5px;
+    }
+    .ig-single-post {
+        width: calc(100% / 3 - 4px);
+    }
+    .blog-tags {
+        gap: 5px;
+    }
+    .tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .blog-social-btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .blog-nav.mt--5 {
+        margin-top: -4px;
+    }
+    .blog-nav.pb-35 {
+        padding-bottom: 30px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-nav-txt {
+        font-size: 12px;
+    }
+    .blog-nav-txt span.mb--7 {
+        margin-bottom: -5px;
+    }
+    .blog-nav-title {
+        font-size: 12px;
+    }
+    .blog-nav-title.mb-9 {
+        margin-bottom: 11px;
+    }
+    .blog-admin.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-admin.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-admin.mb-35 {
+        margin-bottom: 30px;
+    }
+    .admin-name {
+        font-size: 16px;
+    }
+    .admin-name.mb-11 {
+        margin-bottom: 12px;
+    }
+    .blog-panel-title {
+        height: 50px;
+    }
+    .blog-panel-title.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-panel-title > * {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-single-comment.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-panel.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-comment-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-name {
+        font-size: 16px;
+    }
+    .blog-comment-date {
+        font-size: 14px;
+    }
+    .blog-comment-date.mb--3 {
+        margin-bottom: -2px;
+    }
+    .blog-comment-reply {
+        font-size: 12px;
+    }
+    .blog-panel-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-panel-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 300px;
+    }
+}
+
+/*as col-sm*/
+/*large mobile device*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .section-heading.mb-70 {
+        margin-bottom: 40px;
+    }
+    .section-heading.mb-60 {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        font-size: 38px;
+    }
+    .section-title.mt--8 {
+        margin-top: -7px;
+    }
+    .section-title.mb-15 {
+        margin-bottom: 12px;
+    }
+
+
+    /* ====================================================
+    Home page
+    ==================================================== */
+
+    
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .top-left .d-sm-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-txt {
+        padding: 0 10px;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .header-right-txt {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        border-top: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 140px;
+    }
+    .banner-txt.p-180 {
+        padding: 80px 0;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .banner-subtitle.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-paragraph.mb-11 {
+        margin-bottom: 7px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2 {
+        font-size: 24px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 62px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 24px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title.mt--7 {
+        margin-top: -6px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+    .feature-txt p.mt--6 {
+        margin-top: -5px;
+    }
+    .feature-img {
+        width: 296px;
+        margin: auto;
+    }
+
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 90px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 40px;
+    }
+    .feature-txt-area.mb-70 {
+        margin-bottom: 30px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+    .feature-txt p.mb--8 {
+        margin-bottom: -7px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+
+    .cta-title {
+        font-size: 35px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+    br {
+        display: none;
+    }
+    /* ======================
+    About section
+    ====================== */
+
+    .about-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .about-title.mt--8 {
+        margin-top: -7px;
+    }
+    .about-title.mb-25 {
+        margin-bottom: 12px;
+    }
+    .about p.fw-bold {
+        font-weight: 500 !important;
+    }
+    .about p.mb-16 {
+        margin-bottom: 12px;
+    }
+    .about p.mb-35 {
+        margin-bottom: 21px;
+    }
+    .about-list {
+        font-size: 14px;
+        font-weight: 500 !important;
+        &.mt--7 {
+            margin-top: -5px;
+        }
+        &.mb--7 {
+            margin-bottom: -6px;
+        }
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+    .btn-box.pt-40 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-card {
+        width: 296px;
+        margin: auto;
+        &.class-card-2 {
+            width: 100%;
+        }
+    }
+    .class-title {
+        font-size: 20px;
+    }
+    .class-title.mt--7 {
+        margin-top: -9px;
+    }
+    .class-title.mb-6 {
+        margin-bottom: 8px;
+    }
+    .class-time {
+        font-size: 14px;
+    }
+    .class-time.mb-15 {
+        margin-bottom: 17px;
+    }
+    .class-info.mt-30 {
+        margin-top: 25px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+    .amount.mt--8 {
+        margin-top: -6px;
+    }
+    .amount.mb--8 {
+        margin-bottom: -7px;
+    }
+    .popular-class-btn.pt-60 {
+        padding-top: 0;
+    }
+
+    /* ======================
+    Counter Class section
+    ====================== */
+
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 116px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -45px;
+    }
+    .counter-txt {
+        font-size: 30px;
+        &.mb-20 {
+            margin-bottom: 9px;
+        }
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+    .counter-icon {
+        width: 40px;
+    }
+    .counter-icon.mb-21 {
+        margin-bottom: 14px;
+    }
+    .counter-txt.mb-14 {
+        margin-bottom: 9px;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-card-img.mb-30 {
+        margin-bottom: 20px;
+    }
+    .staff-name {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+    .staff-position {
+        font-size: 14px;
+    }
+    .staff-position.mb--8 {
+        margin-bottom: -3px;
+    }
+    .staff-social-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-1 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-2 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-3 {
+        background-size: 40px;
+    }
+
+    /* ======================
+    App Download section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 100px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+    .facility-img-area {
+        min-height: 100px;
+    }
+    .facility-card-txt.p-50 {
+        padding: 25px 0;
+    }
+    .facility-card-txt.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .facility-icon {
+        width: 50px;
+        height: 50px;
+        img {
+            width: 60%;
+        }
+    }
+    .facility-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .facility-icon-minus-top {
+        margin-top: -20px;
+    }
+    .facility-title {
+        font-size: 16px;
+    }
+    .facility-title.mt--2 {
+        margin-top: -1px;
+    }
+    .facility-title.mb-25 {
+        margin-bottom: 16px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.pb-17 {
+        padding-bottom: 12px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-filter-btn:after {
+        width: 6px;
+        height: 6px;
+        bottom: 8px;
+        border: 0;
+        background: $gradient-1;
+    }
+    .gallery-image {
+        width: calc(50% - 24px);
+    }
+    .gallery-title {
+        font-size: 18px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title {
+        font-size: 14px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+
+    /* ======================
+    Gallery section Two (2)
+    ====================== */
+    .gallery-image-2 {
+        width: 50%;
+    }
+    .gallery-btn.pt-70 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .quote-icon {
+        width: 70px;
+    }
+    .quote-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .feedback-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feedback-title.mt--3 {
+        margin-top: -7px;
+    }
+    .feedback-title.mb-17 {
+        margin-bottom: 6px;
+    }
+    .feedback-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .feedback-txt.mb-41 {
+        margin-bottom: 17px;
+    }
+    .client-name {
+        font-size: 14px;
+    }
+    .client-name.mb--2 {
+        margin-bottom: -3px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+
+    .blog-card {
+        max-width: 296px;
+        margin: 0 auto;
+    }
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-title.mt--2 {
+        margin-top: -6px;
+    }
+    .blog-title.mb-20 {
+        margin-bottom: 7px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .blog-single-stat {
+        font-size: 14px;
+        img {
+            width: auto;
+            height: 12px;
+            &.mr-10 {
+                margin-right: 5px;
+            }
+        }
+    }
+
+
+    /* ======================
+    Contact section
+    ====================== */
+
+    .contact-info-sub-txt {
+        min-width: 80px;
+        font-size: 14px;
+    }
+    .contact-info-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-info-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .contact-info-txt.mb-62 {
+        margin-bottom: 17px;
+    }
+    .contact-info-txt.mb--8 {
+        margin-bottom: -3px;
+    }
+    .def-form {
+        font-size: 14px;
+    }
+    .def-textarea {
+        font-size: 14px;
+    }
+    .def-textarea.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 30px;
+    }
+    .footer-info-txt-area {
+        width: max-content;
+    }
+    .footer-info-title {
+        font-size: 14px;
+    }
+    .footer-info-txt {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title {
+        font-size: 20px;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-card-txt.mb-26 {
+        margin-bottom: 12px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .footer-input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .footer-input.px-35 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 14px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+
+    .about-2.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-inner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 15px;
+    }
+    .partner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .class-details-teacher-name.fz-18 {
+        font-size: 16px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .class-details-teacher-name .fz-16 {
+        font-size: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .class-comment-title {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .class-comment-title.mt--2 {
+        margin-top: -5px;
+    }
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment-title.mb-21 {
+        margin-bottom: 13px;
+    }
+    .class-comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .class-comment.ml-100 {
+        margin-left: 30px;
+    }
+    .class-comment-img.mr-30 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .class-comment-username {
+        font-size: 14px;
+    }
+    .class-comment-username.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-details.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-actions {
+        gap: 10px;
+    }
+    .def-form.mb-30 {
+        margin-bottom: 20px;
+    }
+    .comment-textarea {
+        height: 100px;
+    }
+    .comment-textarea.mb-50 {
+        margin-bottom: 20px;
+    }
+    .def-sidebar {
+        max-width: 320px;
+        margin: auto;
+    }
+    .sidebar-box.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-box.mb-50 {
+        margin-bottom: 30px;
+    }
+    .sidebar-title {
+        font-size: 16px;
+    }
+    .sidebar-title.mt--2 {
+        margin-top: -1px;
+    }
+    .sidebar-title.mb-30 {
+        margin-bottom: 20px;
+    }
+    .sidebar-search-box.px-25 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sidebar-search-input {
+        height: 40px;
+    }
+    .sidebar-class-categories.mt--14 {
+        margin-top: -12px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 10px;
+    }
+    .sidebar-class-txt {
+        width: calc(100% - 70px);
+    }
+
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-title {
+        font-size: 20px;
+    }
+    .staff-details-title.mt--3 {
+        margin-top: -1px;
+    }
+    .staff-details-title.mb-10 {
+        margin-bottom: 11px;
+    }
+    .staff-details-title.mb-16 {
+        margin-bottom: 17px;
+    }
+    .staff-info {
+        font-size: 14px;
+    }
+    .staff-info.mb-18 {
+        margin-bottom: 7px;
+    }
+    .staff-info.mb--7 {
+        margin-bottom: -8px;
+    }
+    .about-staff.mb-50 {
+        margin-bottom: 30px;
+    }
+    .staff-details-social.mb-70 {
+        margin-bottom: 30px;
+    }
+    .staff-details-txt {
+        line-height: 24px;
+    }
+    .staff-details-txt.mb-10 {
+        margin-bottom: 12px;
+    }
+    .staff-details-txt.mb-40 {
+        margin-bottom: 24px;
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+    .def-pagination {
+        gap: 5px;
+    }
+    .pagination-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .shop-details-product-title.mb-21 {
+        margin-bottom: 12px;
+    }
+    .shop-card-rating.mb-30 {
+        margin-bottom: 20px;
+    }
+    .shop-details-info-txt.mb-21 {
+        margin-bottom: 11px;
+    }
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .shop-details-price-box.mb-17 {
+        margin-bottom: 14px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .product-details-bottom-part.mt-60 {
+        margin-top: 30px;
+    }
+    .product-details-nav {
+        gap: 5px;
+    }
+    .product-details-nav.mb-30 {
+        margin-bottom: 25px;
+    }
+    .product-details-btn {
+        height: 35px;
+        line-height: 36px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .product-details-btn.px-20 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .product-description.lh-30 {
+        line-height: 24px;
+    }
+    .product-description.mt--8 {
+        margin-top: -5px;
+    }
+    .product-description.mb-40 {
+        margin-bottom: 17px;
+    }
+    .product-description-title.mb-20 {
+        margin-bottom: 10px;
+    }
+    .product-description-feature {
+        font-size: 14px;
+    }
+    .product-information-list {
+        font-size: 14px;
+    }
+    .releted-product.pb-120 {
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Checkout page
+    ==================================================== */
+    .checkout.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .panel.mb-50 {
+        margin-bottom: 24px;
+    }
+    .panel-heading {
+        height: 50px;
+    }
+    .panel-heading.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .panel-heading-txt {
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .panel-body.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .input-box.mb-20 {
+        margin-bottom: 13px;
+    }
+    .checkout-btn.pt-70 {
+        padding-top: 0;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cart-table {
+        min-width: max-content;
+    }
+    .cart-table-bottom.px-30 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .single-blog.mb-40 {
+        margin-bottom: 30px;
+    }
+    .blog-slider-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        left: 10px;
+    }
+    .blog-slider-btn.btn-next {
+        right: 10px;
+    }
+    .blog-image.p-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-image.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-image.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-img-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-img-txt.mt--8 {
+        margin-top: -11px;
+    }
+    .blog-img-txt.mb--11 {
+        margin-bottom: -8px;
+    }
+    .single-blog-txt.p-40 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .single-blog-txt.px-45 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-page-blog-title {
+        display: block;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .blog-page-blog-title.mt--10 {
+        margin-top: -3px;
+    }
+    .blog-page-blog-title.mb-8 {
+        margin-bottom: 14px;
+    }
+    .single-blog-info {
+        gap: 10px !important;
+    }
+    .single-blog-info.mb-21 {
+        margin-bottom: 16px;
+    }
+    .single-blog-info>* {
+        font-size: 14px;
+    }
+    .single-blog-p.mt--6 {
+        margin-top: -10px;
+    }
+    .single-blog-p.mb-22 {
+        margin-bottom: 17px;
+    }
+    .single-blog-p.mb-27 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-box {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-sidebar-box.mb-30 {
+        margin-bottom: 24px;
+    }
+    .blog-sidebar-box.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-search-form.px-25 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-search {
+        height: 30px;
+        font-size: 14px;
+    }
+    .blog-sidebar-title-box {
+        height: 50px;
+    }
+    .blog-sidebar-title-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-title {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-sidebar-box-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-link {
+        font-size: 14px;
+    }
+    .blog-sidebar-link.mt--1 {
+        margin-top: 0;
+    }
+    .blog-sidebar-link.mb-26 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-link .fz-14 {
+        font-size: 12px;
+    }
+    .popular-post.mb-40 {
+        margin-bottom: 20px;
+    }
+    .popular-post-txt {
+        width: calc(100% - 95px);
+    }
+    .popular-post-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .popular-post-title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+    .ig-posts {
+        gap: 5px;
+    }
+    .ig-single-post {
+        width: calc(100% / 3 - 4px);
+    }
+    .blog-tags {
+        gap: 5px;
+    }
+    .tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .blog-social-btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .blog-nav.mt--5 {
+        margin-top: -4px;
+    }
+    .blog-nav.pb-35 {
+        padding-bottom: 30px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-nav-txt {
+        font-size: 12px;
+    }
+    .blog-nav-txt span.mb--7 {
+        margin-bottom: -5px;
+    }
+    .blog-nav-title {
+        font-size: 12px;
+    }
+    .blog-nav-title.mb-9 {
+        margin-bottom: 11px;
+    }
+    .blog-admin.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-admin.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-admin.mb-35 {
+        margin-bottom: 30px;
+    }
+    .admin-name {
+        font-size: 16px;
+    }
+    .admin-name.mb-11 {
+        margin-bottom: 12px;
+    }
+    .blog-panel-title {
+        height: 50px;
+    }
+    .blog-panel-title.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-panel-title > * {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-single-comment.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-panel.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-comment-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-name {
+        font-size: 16px;
+    }
+    .blog-comment-date {
+        font-size: 14px;
+    }
+    .blog-comment-date.mb--3 {
+        margin-bottom: -2px;
+    }
+    .blog-comment-reply {
+        font-size: 12px;
+    }
+    .blog-panel-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-panel-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 200px;
+    }
+}
+
+/*medium mobile device*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .section-heading.mb-70 {
+        margin-bottom: 40px;
+    }
+    .section-heading.mb-60 {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .section-title.mt--8 {
+        margin-top: -7px;
+    }
+    .section-title.mb-15 {
+        margin-bottom: 12px;
+    }
+    .heading-sub-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    /* ====================================================
+    Home page
+    ==================================================== */
+
+    
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .header-txt {
+        padding: 0;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .header-right-txt {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        border-top: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 165px;
+    }
+    .banner-txt.p-180 {
+        padding: 80px 0;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .banner-subtitle.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-paragraph.mb-11 {
+        margin-bottom: 7px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2 {
+        font-size: 24px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 48px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 24px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title.mt--7 {
+        margin-top: -6px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+    .feature-txt p.mt--6 {
+        margin-top: -5px;
+    }
+    .feature-img {
+        width: 296px;
+        margin: auto;
+    }
+
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 75px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 35px;
+    }
+    .feature-txt-area.mb-70 {
+        margin-bottom: 30px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+    .feature-txt p.mb--8 {
+        margin-bottom: -7px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+    .cta-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+
+    /* ======================
+    About section
+    ====================== */
+
+    .about-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .about-title.mt--8 {
+        margin-top: -7px;
+    }
+    .about-title.mb-25 {
+        margin-bottom: 12px;
+    }
+    .about p.fw-bold {
+        font-weight: 500 !important;
+    }
+    .about p.mb-16 {
+        margin-bottom: 12px;
+    }
+    .about p.mb-35 {
+        margin-bottom: 21px;
+    }
+    .about-list {
+        font-size: 14px;
+        font-weight: 500 !important;
+        &.mt--7 {
+            margin-top: -5px;
+        }
+        &.mb--7 {
+            margin-bottom: -6px;
+        }
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+    .btn-box.pt-40 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-card {
+        width: 296px;
+        margin: auto;
+    }
+    .class-title {
+        font-size: 18px;
+    }
+    .class-title.mt--7 {
+        margin-top: -9px;
+    }
+    .class-title.mb-6 {
+        margin-bottom: 8px;
+    }
+    .class-time {
+        font-size: 14px;
+    }
+    .class-time.mb-15 {
+        margin-bottom: 17px;
+    }
+    .class-info.mt-30 {
+        margin-top: 25px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+    .amount.mt--8 {
+        margin-top: -6px;
+    }
+    .amount.mb--8 {
+        margin-bottom: -7px;
+    }
+    .popular-class-btn.pt-60 {
+        padding-top: 0;
+    }
+
+    /* ======================
+    Popular Class section Two(2)
+    ====================== */
+    .popular-class-txt.pl-5 {
+        padding: 20px;
+    }
+
+    /* ======================
+    Counter Class section
+    ====================== */
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 116px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -45px;
+    }
+    .counter-txt {
+        font-size: 30px;
+        &.mb-20 {
+            margin-bottom: 9px;
+        }
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+    .counter-box-2 {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    .counter-box-2.p-50p {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+    .counter-icon {
+        width: 40px;
+    }
+    .counter-icon.mb-21 {
+        margin-bottom: 14px;
+    }
+    .counter-txt.mb-14 {
+        margin-bottom: 9px;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-card {
+        width: 270px;
+        margin: auto;
+    }
+    .staff-card-img.mb-30 {
+        margin-bottom: 20px;
+    }
+    .staff-name {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+    .staff-position {
+        font-size: 14px;
+    }
+    .staff-position.mb--8 {
+        margin-bottom: -3px;
+    }
+    .staff-social-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-1 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-2 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-3 {
+        background-size: 40px;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 100px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+
+    .facility-card {
+        width: 270px;
+        margin: auto;
+    }
+    .facility-img-area {
+        min-height: 100px;
+    }
+    .facility-card-txt.p-50 {
+        padding: 25px 0;
+    }
+    .facility-card-txt.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .facility-icon {
+        width: 50px;
+        height: 50px;
+        img {
+            width: 60%;
+        }
+    }
+    .facility-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .facility-icon-minus-top {
+        margin-top: -20px;
+    }
+    .facility-title {
+        font-size: 16px;
+    }
+    .facility-title.mt--2 {
+        margin-top: -1px;
+    }
+    .facility-title.mb-25 {
+        margin-bottom: 16px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.pb-17 {
+        padding-bottom: 12px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-filter-btn:after {
+        width: 6px;
+        height: 6px;
+        bottom: 8px;
+        border: 0;
+        background: $gradient-1;
+    }
+    .gallery-image {
+        width: calc(50% - 24px);
+    }
+    .gallery-popup {
+        width: 45px;
+        height: 45px;
+        line-height: 37px;
+    }
+    .gallery-popup.mb-30 {
+        margin-bottom: 20px;
+    }
+    .gallery-title {
+        font-size: 18px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title {
+        font-size: 14px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+
+    /* ======================
+    Gallery section Two (2)
+    ====================== */
+    .gallery-image-2 {
+        width: 50%;
+    }
+    .gallery-btn.pt-70 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .clients {
+        margin-bottom: 25px;
+    }
+    .quote-icon {
+        width: 70px;
+    }
+    .quote-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .feedback-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feedback-title.mt--3 {
+        margin-top: -7px;
+    }
+    .feedback-title.mb-17 {
+        margin-bottom: 6px;
+    }
+    .feedback-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .feedback-txt.mb-41 {
+        margin-bottom: 17px;
+    }
+    .client-name {
+        font-size: 14px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+    .blog-card {
+        max-width: 296px;
+        margin: 0 auto;
+    }
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-title.mt--2 {
+        margin-top: -6px;
+    }
+    .blog-title.mb-20 {
+        margin-bottom: 7px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .blog-single-stat {
+        font-size: 14px;
+        img {
+            width: auto;
+            height: 12px;
+            &.mr-10 {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    /* ======================
+    Partner section
+    ====================== */
+
+
+
+    /* ======================
+    Contact section
+    ====================== */
+
+    .contact-info-sub-txt {
+        min-width: 80px;
+        font-size: 14px;
+    }
+    .contact-info-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-info-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .contact-info-txt.mb-62 {
+        margin-bottom: 17px;
+    }
+    .contact-info-txt.mb--8 {
+        margin-bottom: -3px;
+    }
+    .def-form {
+        font-size: 14px;
+    }
+    .def-textarea {
+        font-size: 14px;
+    }
+    .def-textarea.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 30px;
+    }
+    .footer-info-txt-area {
+        width: max-content;
+    }
+    .footer-info-title {
+        font-size: 14px;
+    }
+    .footer-info-txt {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .footer-card-title {
+        font-size: 20px;
+    }
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-card-txt.mb-26 {
+        margin-bottom: 12px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .footer-input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .footer-input.px-35 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 14px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+
+    .about-2.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-inner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 15px;
+    }
+    .partner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .class-details-teacher-name.fz-18 {
+        font-size: 16px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .class-details-teacher-name .fz-16 {
+        font-size: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .video-btn.video-btn-2 {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+        font-size: 35px;
+    }
+    .class-comment-title {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .class-comment-title.mt--2 {
+        margin-top: -5px;
+    }
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment-title.mb-21 {
+        margin-bottom: 13px;
+    }
+    .class-comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .class-comment.ml-100 {
+        margin-left: 30px;
+    }
+    .class-comment-img.mr-30 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .class-comment-username {
+        font-size: 14px;
+    }
+    .class-comment-username.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-details.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-actions {
+        gap: 10px;
+    }
+    .def-form.mb-30 {
+        margin-bottom: 20px;
+    }
+    .comment-textarea {
+        height: 100px;
+    }
+    .comment-textarea.mb-50 {
+        margin-bottom: 20px;
+    }
+    .def-sidebar {
+        max-width: 320px;
+        margin: auto;
+    }
+    .sidebar-box.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-box.mb-50 {
+        margin-bottom: 30px;
+    }
+    .sidebar-title {
+        font-size: 16px;
+    }
+    .sidebar-title.mt--2 {
+        margin-top: -1px;
+    }
+    .sidebar-title.mb-30 {
+        margin-bottom: 20px;
+    }
+    .sidebar-search-box.px-25 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sidebar-search-input {
+        height: 40px;
+    }
+    .sidebar-class-categories.mt--14 {
+        margin-top: -12px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 10px;
+    }
+    .sidebar-class-txt {
+        width: calc(100% - 70px);
+    }
+
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-img {
+        max-width: 320px;
+        margin: auto;
+    }
+    .staff-details-title {
+        font-size: 20px;
+    }
+    .staff-details-title.mt--3 {
+        margin-top: -1px;
+    }
+    .staff-details-title.mb-10 {
+        margin-bottom: 11px;
+    }
+    .staff-details-title.mb-16 {
+        margin-bottom: 17px;
+    }
+    .staff-info {
+        font-size: 14px;
+    }
+    .staff-info.mb-18 {
+        margin-bottom: 7px;
+    }
+    .staff-info.mb--7 {
+        margin-bottom: -8px;
+    }
+    .about-staff.mb-50 {
+        margin-bottom: 30px;
+    }
+    .staff-details-social.mb-70 {
+        margin-bottom: 30px;
+    }
+    .staff-details-txt {
+        line-height: 24px;
+    }
+    .staff-details-txt.mb-10 {
+        margin-bottom: 12px;
+    }
+    .staff-details-txt.mb-40 {
+        margin-bottom: 24px;
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+    .def-pagination {
+        gap: 5px;
+    }
+    .pagination-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .shop-card {
+        max-width: 296px;
+        margin: auto;
+    }
+
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .shop-details-product-title.mb-21 {
+        margin-bottom: 12px;
+    }
+    .shop-card-rating.mb-30 {
+        margin-bottom: 20px;
+    }
+    .shop-details-info-txt.mb-21 {
+        margin-bottom: 11px;
+    }
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .shop-details-price-box.mb-17 {
+        margin-bottom: 14px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .product-details-bottom-part.mt-60 {
+        margin-top: 30px;
+    }
+    .product-details-nav {
+        gap: 5px;
+    }
+    .product-details-nav.mb-30 {
+        margin-bottom: 25px;
+    }
+    .product-details-btn {
+        height: 35px;
+        line-height: 36px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .product-details-btn.px-20 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .product-description.lh-30 {
+        line-height: 24px;
+    }
+    .product-description.mt--8 {
+        margin-top: -5px;
+    }
+    .product-description.mb-40 {
+        margin-bottom: 17px;
+    }
+    .product-description-title.mb-20 {
+        margin-bottom: 10px;
+    }
+    .product-description-feature {
+        font-size: 14px;
+    }
+    .product-information-list {
+        font-size: 14px;
+    }
+    .releted-product.pb-120 {
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Checkout page
+    ==================================================== */
+    .checkout.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .panel.mb-50 {
+        margin-bottom: 24px;
+    }
+    .panel-heading {
+        height: 50px;
+    }
+    .panel-heading.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .panel-heading-txt {
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .panel-body.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .input-box.mb-20 {
+        margin-bottom: 13px;
+    }
+    .checkout-btn.pt-70 {
+        padding-top: 0;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cart-table {
+        min-width: max-content;
+    }
+    .cart-table-bottom.px-30 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .single-blog.mb-40 {
+        margin-bottom: 30px;
+    }
+    .blog-slider-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        left: 10px;
+    }
+    .blog-slider-btn.btn-next {
+        right: 10px;
+    }
+    .blog-image.p-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-image.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-image.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-img-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-img-txt.mt--8 {
+        margin-top: -11px;
+    }
+    .blog-img-txt.mb--11 {
+        margin-bottom: -8px;
+    }
+    .single-blog-txt.p-40 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .single-blog-txt.px-45 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-page-blog-title {
+        display: block;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .blog-page-blog-title.mt--10 {
+        margin-top: -3px;
+    }
+    .blog-page-blog-title.mb-8 {
+        margin-bottom: 14px;
+    }
+    .single-blog-info {
+        gap: 10px !important;
+    }
+    .single-blog-info.mb-21 {
+        margin-bottom: 16px;
+    }
+    .single-blog-info>* {
+        font-size: 14px;
+    }
+    .single-blog-p.mt--6 {
+        margin-top: -10px;
+    }
+    .single-blog-p.mb-22 {
+        margin-bottom: 17px;
+    }
+    .single-blog-p.mb-27 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-box {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-sidebar-box.mb-30 {
+        margin-bottom: 24px;
+    }
+    .blog-sidebar-box.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-search-form.px-25 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-search {
+        height: 30px;
+        font-size: 14px;
+    }
+    .blog-sidebar-title-box {
+        height: 50px;
+    }
+    .blog-sidebar-title-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-title {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-sidebar-box-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-link {
+        font-size: 14px;
+    }
+    .blog-sidebar-link.mt--1 {
+        margin-top: 0;
+    }
+    .blog-sidebar-link.mb-26 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-link .fz-14 {
+        font-size: 12px;
+    }
+    .popular-post.mb-40 {
+        margin-bottom: 20px;
+    }
+    .popular-post-txt {
+        width: calc(100% - 95px);
+    }
+    .popular-post-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .popular-post-title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+    .ig-posts {
+        gap: 5px;
+    }
+    .ig-single-post {
+        width: calc(100% / 3 - 4px);
+    }
+    .blog-tags {
+        gap: 5px;
+    }
+    .tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .blog-social-btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .blog-nav.mt--5 {
+        margin-top: -4px;
+    }
+    .blog-nav.pb-35 {
+        padding-bottom: 30px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-nav-txt {
+        font-size: 12px;
+    }
+    .blog-nav-txt span.mb--7 {
+        margin-bottom: -5px;
+    }
+    .blog-nav-title {
+        font-size: 12px;
+    }
+    .blog-nav-title.mb-9 {
+        margin-bottom: 11px;
+    }
+    .blog-admin.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-admin.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-admin.mb-35 {
+        margin-bottom: 30px;
+    }
+    .admin-name {
+        font-size: 16px;
+    }
+    .admin-name.mb-11 {
+        margin-bottom: 12px;
+    }
+    .blog-panel-title {
+        height: 50px;
+    }
+    .blog-panel-title.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-panel-title > * {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-single-comment.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment.pl-60 {
+        padding-left: 50px;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-panel.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-comment-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-name {
+        font-size: 16px;
+    }
+    .blog-comment-date {
+        font-size: 14px;
+    }
+    .blog-comment-date.mb--3 {
+        margin-bottom: -2px;
+    }
+    .blog-comment-reply {
+        font-size: 12px;
+    }
+    .blog-panel-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-panel-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 200px;
+    }
+}
+
+/*small mobile device*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .section-heading.mb-70 {
+        margin-bottom: 40px;
+    }
+    .section-heading.mb-60 {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .section-title.mt--8 {
+        margin-top: -7px;
+    }
+    .section-title.mb-15 {
+        margin-bottom: 12px;
+    }
+    .heading-sub-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    /* ====================================================
+    Home page
+    ==================================================== */
+
+    
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .header-txt {
+        padding: 0;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .header-right-txt {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        border-top: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 165px;
+    }
+    .banner-txt.p-180 {
+        padding: 80px 0;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .banner-subtitle.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-paragraph.mb-11 {
+        margin-bottom: 7px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2 {
+        font-size: 20px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 40px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 24px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .feature-sub-title.mt--7 {
+        margin-top: -6px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+    .feature-txt p.mt--6 {
+        margin-top: -5px;
+    }
+    .feature-img {
+        width: 296px;
+        margin: auto;
+    }
+    .feature-part-icon.mr-30 {
+        margin-right: 20px;
+    }
+    br {
+        display: none;
+    }
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 35px;
+    }
+    .feature-txt-area.mb-70 {
+        margin-bottom: 30px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+    .feature-txt p.mb--8 {
+        margin-bottom: -7px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+    .cta-title {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+    /* ======================
+    About section
+    ====================== */
+
+    .about-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .about-title.mt--8 {
+        margin-top: -7px;
+    }
+    .about-title.mb-25 {
+        margin-bottom: 12px;
+    }
+    .about p.fw-bold {
+        font-weight: 500 !important;
+    }
+    .about p.mb-16 {
+        margin-bottom: 12px;
+    }
+    .about p.mb-35 {
+        margin-bottom: 21px;
+    }
+    .about-list {
+        font-size: 14px;
+        font-weight: 500 !important;
+        &.mt--7 {
+            margin-top: -5px;
+        }
+        &.mb--7 {
+            margin-bottom: -6px;
+        }
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+    .btn-box.pt-40 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-card {
+        width: 296px;
+        margin: auto;
+    }
+    .class-title {
+        font-size: 18px;
+    }
+    .class-title.mt--7 {
+        margin-top: -9px;
+    }
+    .class-title.mb-6 {
+        margin-bottom: 8px;
+    }
+    .class-time {
+        font-size: 14px;
+    }
+    .class-time.mb-15 {
+        margin-bottom: 17px;
+    }
+    .class-info.mt-30 {
+        margin-top: 25px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+    .amount.mt--8 {
+        margin-top: -6px;
+    }
+    .amount.mb--8 {
+        margin-bottom: -7px;
+    }
+    .popular-class-btn.pt-60 {
+        padding-top: 0;
+    }
+
+    /* ======================
+    Popular Class section Two(2)
+    ====================== */
+    .popular-class-txt.pl-5 {
+        padding: 20px;
+    }
+
+    /* ======================
+    Counter section
+    ====================== */
+
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 116px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -45px;
+    }
+    .counter-txt {
+        font-size: 30px;
+        &.mb-20 {
+            margin-bottom: 9px;
+        }
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+    .counter-box-2 {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    .counter-box-2.p-50p {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+    .counter-icon {
+        width: 40px;
+    }
+    .counter-icon.mb-21 {
+        margin-bottom: 14px;
+    }
+    .counter-txt.mb-14 {
+        margin-bottom: 9px;
+    }
+
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-card {
+        width: 270px;
+        margin: auto;
+    }
+    .staff-card-img.mb-30 {
+        margin-bottom: 20px;
+    }
+    .staff-name {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+    .staff-position {
+        font-size: 14px;
+    }
+    .staff-position.mb--8 {
+        margin-bottom: -3px;
+    }
+    .staff-social-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-1 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-2 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-3 {
+        background-size: 40px;
+    }
+
+    /* ======================
+    App Download section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 100px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+
+    .facility-card {
+        width: 270px;
+        margin: auto;
+    }
+    .facility-img-area {
+        min-height: 100px;
+    }
+    .facility-card-txt.p-50 {
+        padding: 25px 0;
+    }
+    .facility-card-txt.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .facility-icon {
+        width: 50px;
+        height: 50px;
+        img {
+            width: 60%;
+        }
+    }
+    .facility-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .facility-icon-minus-top {
+        margin-top: -20px;
+    }
+    .facility-title {
+        font-size: 16px;
+    }
+    .facility-title.mt--2 {
+        margin-top: -1px;
+    }
+    .facility-title.mb-25 {
+        margin-bottom: 16px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.pb-17 {
+        padding-bottom: 12px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-filter-btn:after {
+        width: 6px;
+        height: 6px;
+        bottom: 8px;
+        border: 0;
+        background: $gradient-1;
+    }
+    .gallery-images {
+        max-width: 320px;
+        margin: auto;
+    }
+    .gallery-image {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-title {
+        font-size: 18px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title {
+        font-size: 14px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+    .gallery-btn.pt-70 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .clients {
+        margin-bottom: 25px;
+    }
+    .quote-icon {
+        width: 70px;
+    }
+    .quote-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .feedback-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feedback-title.mt--3 {
+        margin-top: -7px;
+    }
+    .feedback-title.mb-17 {
+        margin-bottom: 6px;
+    }
+    .feedback-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .feedback-txt.mb-41 {
+        margin-bottom: 17px;
+    }
+    .client-name {
+        font-size: 14px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+    .blog-card {
+        max-width: 296px;
+        margin: 0 auto;
+    }
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-title.mt--2 {
+        margin-top: -6px;
+    }
+    .blog-title.mb-20 {
+        margin-bottom: 7px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .blog-single-stat {
+        font-size: 14px;
+        img {
+            width: auto;
+            height: 12px;
+            &.mr-10 {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    /* ======================
+    Partner section
+    ====================== */
+
+
+
+    /* ======================
+    Contact section
+    ====================== */
+
+    .contact-info-sub-txt {
+        min-width: 80px;
+        font-size: 14px;
+    }
+    .contact-info-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-info-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .contact-info-txt.mb-62 {
+        margin-bottom: 17px;
+    }
+    .contact-info-txt.mb--8 {
+        margin-bottom: -3px;
+    }
+    .def-form {
+        font-size: 14px;
+    }
+    .def-textarea {
+        font-size: 14px;
+    }
+    .def-textarea.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 30px;
+    }
+    .footer-info-txt-area {
+        width: calc(100% - 50px);
+    }
+    .footer-info-title {
+        font-size: 14px;
+    }
+    .footer-info-txt {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title {
+        font-size: 20px;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-card-txt.mb-26 {
+        margin-bottom: 12px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .footer-input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .footer-input.px-35 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 14px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+
+    .about-2.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-inner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 15px;
+    }
+    .partner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .class-details-teacher-name.fz-18 {
+        font-size: 16px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .class-details-teacher-name .fz-16 {
+        font-size: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .video-btn.video-btn-2 {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 25px;
+    }
+    .class-comment-title {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .class-comment-title.mt--2 {
+        margin-top: -5px;
+    }
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment-title.mb-21 {
+        margin-bottom: 13px;
+    }
+    .class-comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .class-comment.ml-100 {
+        margin-left: 15px;
+    }
+    .class-comment-img.mr-30 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .class-comment-username {
+        font-size: 14px;
+    }
+    .class-comment-username.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-details.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-actions {
+        gap: 10px;
+    }
+    .def-form.mb-30 {
+        margin-bottom: 20px;
+    }
+    .comment-textarea {
+        height: 100px;
+    }
+    .comment-textarea.mb-50 {
+        margin-bottom: 20px;
+    }
+    .def-sidebar {
+        max-width: 320px;
+        margin: auto;
+    }
+    .sidebar-box.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-box.mb-50 {
+        margin-bottom: 30px;
+    }
+    .sidebar-title {
+        font-size: 16px;
+    }
+    .sidebar-title.mt--2 {
+        margin-top: -1px;
+    }
+    .sidebar-title.mb-30 {
+        margin-bottom: 20px;
+    }
+    .sidebar-search-box.px-25 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sidebar-search-input {
+        height: 40px;
+    }
+    .sidebar-class-categories.mt--14 {
+        margin-top: -12px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 10px;
+    }
+    .sidebar-class-txt {
+        width: calc(100% - 70px);
+    }
+
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-img {
+        max-width: 320px;
+        margin: auto;
+    }
+    .staff-details-title {
+        font-size: 20px;
+    }
+    .staff-details-title.mt--3 {
+        margin-top: -1px;
+    }
+    .staff-details-title.mb-10 {
+        margin-bottom: 11px;
+    }
+    .staff-details-title.mb-16 {
+        margin-bottom: 17px;
+    }
+    .staff-info {
+        font-size: 14px;
+    }
+    .staff-info.mb-18 {
+        margin-bottom: 7px;
+    }
+    .staff-info.mb--7 {
+        margin-bottom: -8px;
+    }
+    .about-staff.mb-50 {
+        margin-bottom: 30px;
+    }
+    .staff-details-social.mb-70 {
+        margin-bottom: 30px;
+    }
+    .staff-details-txt {
+        line-height: 24px;
+    }
+    .staff-details-txt.mb-10 {
+        margin-bottom: 12px;
+    }
+    .staff-details-txt.mb-40 {
+        margin-bottom: 24px;
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+    .def-pagination {
+        gap: 5px;
+    }
+    .pagination-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .shop-card {
+        max-width: 296px;
+        margin: auto;
+    }
+
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .shop-details-product-title.mb-21 {
+        margin-bottom: 12px;
+    }
+    .shop-card-rating.mb-30 {
+        margin-bottom: 20px;
+    }
+    .shop-details-info-txt.mb-21 {
+        margin-bottom: 11px;
+    }
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .shop-details-price-box.mb-17 {
+        margin-bottom: 14px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .product-details-bottom-part.mt-60 {
+        margin-top: 30px;
+    }
+    .product-details-nav {
+        gap: 5px;
+    }
+    .product-details-nav.mb-30 {
+        margin-bottom: 25px;
+    }
+    .product-details-btn {
+        height: 35px;
+        line-height: 36px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .product-details-btn.px-20 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .product-description.lh-30 {
+        line-height: 24px;
+    }
+    .product-description.mt--8 {
+        margin-top: -5px;
+    }
+    .product-description.mb-40 {
+        margin-bottom: 17px;
+    }
+    .product-description-title.mb-20 {
+        margin-bottom: 10px;
+    }
+    .product-description-feature {
+        font-size: 14px;
+    }
+    .product-information-list {
+        font-size: 14px;
+    }
+    .releted-product.pb-120 {
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================================
+    Checkout page
+    ==================================================== */
+    .checkout.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .panel.mb-50 {
+        margin-bottom: 24px;
+    }
+    .panel-heading {
+        height: 50px;
+    }
+    .panel-heading.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .panel-heading-txt {
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .panel-body.p-50 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .input-box.mb-20 {
+        margin-bottom: 13px;
+    }
+    .checkout-btn.pt-70 {
+        padding-top: 0;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cart-table {
+        min-width: max-content;
+    }
+    .cart-table-bottom.px-30 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .single-blog.mb-40 {
+        margin-bottom: 30px;
+    }
+    .blog-slider-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        left: 10px;
+    }
+    .blog-slider-btn.btn-next {
+        right: 10px;
+    }
+    .blog-image.p-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-image.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-image.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-img-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-img-txt.mt--8 {
+        margin-top: -11px;
+    }
+    .blog-img-txt.mb--11 {
+        margin-bottom: -8px;
+    }
+    .single-blog-txt.p-40 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .single-blog-txt.px-45 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-page-blog-title {
+        display: block;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .blog-page-blog-title.mt--10 {
+        margin-top: -3px;
+    }
+    .blog-page-blog-title.mb-8 {
+        margin-bottom: 14px;
+    }
+    .single-blog-info {
+        gap: 10px !important;
+    }
+    .single-blog-info.mb-21 {
+        margin-bottom: 16px;
+    }
+    .single-blog-info>* {
+        font-size: 14px;
+    }
+    .single-blog-p.mt--6 {
+        margin-top: -10px;
+    }
+    .single-blog-p.mb-22 {
+        margin-bottom: 17px;
+    }
+    .single-blog-p.mb-27 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-box {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-sidebar-box.mb-30 {
+        margin-bottom: 24px;
+    }
+    .blog-sidebar-box.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-search-form.px-25 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-search {
+        height: 30px;
+        font-size: 14px;
+    }
+    .blog-sidebar-title-box {
+        height: 50px;
+    }
+    .blog-sidebar-title-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-title {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-sidebar-box-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-sidebar-link {
+        font-size: 14px;
+    }
+    .blog-sidebar-link.mt--1 {
+        margin-top: 0;
+    }
+    .blog-sidebar-link.mb-26 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-link .fz-14 {
+        font-size: 12px;
+    }
+    .popular-post.mb-40 {
+        margin-bottom: 20px;
+    }
+    .popular-post-txt {
+        width: calc(100% - 95px);
+    }
+    .popular-post-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .popular-post-title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+    .ig-posts {
+        gap: 5px;
+    }
+    .ig-single-post {
+        width: calc(100% / 3 - 4px);
+    }
+    .blog-tags {
+        gap: 5px;
+    }
+    .tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-tag-btn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .blog-social-btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .blog-nav.mt--5 {
+        margin-top: -4px;
+    }
+    .blog-nav.pb-35 {
+        padding-bottom: 30px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-nav-txt {
+        font-size: 12px;
+    }
+    .blog-nav-txt span.mb--7 {
+        margin-bottom: -5px;
+    }
+    .blog-nav-title {
+        font-size: 12px;
+    }
+    .blog-nav-title.mb-9 {
+        margin-bottom: 11px;
+    }
+    .blog-admin.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-admin.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-admin.mb-35 {
+        margin-bottom: 30px;
+    }
+    .admin-name {
+        font-size: 16px;
+    }
+    .admin-name.mb-11 {
+        margin-bottom: 12px;
+    }
+    .blog-panel-title {
+        height: 50px;
+    }
+    .blog-panel-title.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-panel-title > * {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-single-comment.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment.pl-60 {
+        padding-left: 35px;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-panel.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-comment-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-name {
+        font-size: 16px;
+    }
+    .blog-comment-date {
+        font-size: 14px;
+    }
+    .blog-comment-date.mb--3 {
+        margin-bottom: -2px;
+    }
+    .blog-comment-reply {
+        font-size: 12px;
+    }
+    .blog-panel-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-panel-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 200px;
+    }
+}
+@media (max-width: 767px) {
+    .facility-card-txt.px-50 {
+        padding-bottom: 50px;
+    }
+    .class-info.d-flex.justify-content-between .vertical-border {
+        display: none;
+    }
+    .staff-card.mb-30 {
+        margin-bottom: 30px;
+    }
+    .spacetopbottomxs {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .pl-30.contact-wrapp {
+        padding-left: 0;
+    }
+    .single-content-wrapper.mr-30 {
+        margin-right: 0;
+    }
+
+
+}
