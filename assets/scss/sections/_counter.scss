@@ -13,8 +13,12 @@
     color: $white;
 }
 .counter-txt {
-    font-size: 48px;
+    font-size: 52px;
+    font-weight: 600;
     line-height: 100%;
+}
+.counter-sub-txt {
+	font-size: 22px;
 }
 .counter-box-2:hover .counter-icon {
     animation-name: wobble-vertical;

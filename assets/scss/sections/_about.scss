@@ -4,13 +4,14 @@
     color: $white;
 }
 .about-2 {
-    background: url(../images/about-bg-2.jpg) center center no-repeat;
+    background: url(../images/about-bg-2.jpg);
     background-size: cover;
     color: $white;
 }
 .about-title {
-    font-size: 48px;
+    font-size: 52px;
     line-height: 1.2;
+    font-weight: 600;
 }
 .feature-img.p-relative::after {
     position: absolute;
@@ -29,9 +30,13 @@
         transition: all .3s;
     }
     &:hover i {
-        font-weight: 700;
+        color: #FF5A4C;
     }
 }
 p.app-download-txt {
     font-size: 20px;
+}
+
+.bg-top-center {
+    background-position: top center;
 }
