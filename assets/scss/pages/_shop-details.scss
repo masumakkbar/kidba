@@ -123,3 +123,6 @@
         padding-top: 0;
     }
 }
+.nav.product-details-nav li:not(:last-child) {
+    margin-right: 10px;
+}

@@ -16,10 +16,6 @@
         left: 15px;
         right: 15px;
     }
-    @media (min-width: 992px) and (max-width: 1199px) {
-        left: 20px;
-        right: auto;
-    }
 
 }
 .staff-card-img {
@@ -51,7 +47,9 @@
 .mb-5-px {
     margin-bottom: 5px;
 }
-
+.footer-card .footer-card-txt {
+	line-height: 28px;
+}
 
 .class-fee {
     position: absolute;
@@ -70,11 +68,11 @@
     top: 20px;
     z-index: 1;
     color: #fff;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     background: #23cc88;
     line-height: 1;
-    padding: 10px 13px;
+    padding: 9px 13px;
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
@@ -101,11 +99,6 @@
     grid-gap: 10px;
     @media (max-width: 768px) {
         flex-wrap: wrap;
-    }
-    & > * {
-        @media (max-width: 768px) {
-            flex: 0 0 100%;
-        }
     }
 }
 .class-info .box span.single-info {

@@ -4,55 +4,31 @@
     /* ====================================================
     global style
     ==================================================== */
+    .footer-card-title {
+        font-size: 24px;
+    }
     .section-heading.mb-70 {
         margin-bottom: 60px;
-    }
-    .def-btn {
-        padding: 0 22px;
     }
     .bottom-footer-social.mr-30 {
         margin-right: 15px;
     }
-
-    /* ====================================================
-    Home page
-    ==================================================== */
-
-    
-    /* ======================
-    Header section
-    ====================== */
-    .header-txt {
-        height: 40px;
-        line-height: 40px;
-        font-size: 15px;
+    .facility-card-txt.px-50 {
+        padding-left: 40px;
+        padding-right: 40px;
     }
-    .header-txt.pr-30 {
-        padding-right: 15px;
+    .kidba-features-wrapper.pl-60 {
+        padding-left: 30px;
     }
-    .header-txt.px-30 {
-        padding-left: 15px;
-        padding-right: 15px;
+    .counter-box-2 .counter-txt.mb-14 {
+        margin-bottom: 10px;
     }
-    .header-txt.pl-30 {
-        padding-left: 15px;
+    .counter-box-2 .counter-icon.mb-21 {
+        margin-bottom: 15px;
     }
-    .header-right-txt {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
+    .counter-box-2 .counter-part-txt {
+        padding: 0 20px;
     }
-    .nav-item.pr-20 {
-        padding-right: 15px;
-    }
-    .nav-item.px-20 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .nav-item.pl-20 {
-        padding-left: 15px;
-    }
-    
     /* ======================
     Header section Two (2)
     ====================== */
@@ -170,24 +146,12 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .blog-title {
-        font-size: 20px;
-    }
-    .blog-title.mb-20 {
-        margin-bottom: 11px;
-    }
     .blog-bottom-part.px-20 {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
-    .blog-single-stat {
-        font-size: 14px;
-        img {
-            width: 12px;
-            &.mr-10 {
-                margin-right: 5px;
-            }
-        }
+    .gallery-title {
+        font-size: 24px;
     }
     
     /* ======================
@@ -291,36 +255,60 @@
     /* ====================================================
     global style
     ==================================================== */
+    .part-txt.part-text-list {
+        padding: 40px;
+    }
+    .part-txt.part-text-list .box.box-1.text-center {
+        flex-direction: row;
+    }
+    .pl-30.contact-wrapp {
+        padding-left: 0;
+    }
+    .contact-info.kitba-contact {
+        margin-bottom: 20px;
+    }
+    .kidba-features-wrapper.pl-60 {
+        padding-left: 10px;
+    }
     .single-content-wrapper.mr-30 {
         margin-right: 0;
     }
-    .section-heading.mb-70 {
-        margin-bottom: 40px;
-    }
-    .section-heading.mb-60 {
-        margin-bottom: 30px;
-    }
     .section-title {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 40px;
     }
-    .section-title.mt--8 {
-        margin-top: -7px;
+    .class-title {
+        font-size: 24px;
     }
-    .section-title.mb-15 {
-        margin-bottom: 12px;
+    .footer-single-info {
+        justify-content: center;
     }
-    .heading-sub-txt {
-        font-size: 14px;
-        line-height: 24px;
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
-
-
-    /* ====================================================
-    Home page
-    ==================================================== */
-
-    
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 40px;
+    }
+    .footer-info-txt-area {
+        width: max-content;
+    }
+    .counter-box-2 .counter-txt.mb-14 {
+        margin-bottom: 10px;
+    }
+    .counter-box-2 .counter-icon.mb-21 {
+        margin-bottom: 15px;
+    }
+    .counter-box-2 .counter-part-txt {
+        padding: 0 29px;
+    }
     /* ======================
     Header section
     ====================== */
@@ -348,16 +336,16 @@
     .header-txt {
         padding: 0 10px;
         border: 0;
-        height: 25px;
-        line-height: 25px;
+        height: 30px;
+        line-height: 30px;
         text-align: center;
         margin-bottom: 10px;
     }
     .header-right-txt {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
         border-top: 1px solid rgba($white, 0.3);
         border-bottom: 1px solid rgba($white, 0.3);
     }
@@ -408,9 +396,7 @@
         padding-bottom: 130px;
     }
     .banner-subtitle {
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 300;
+        font-size: 24px;
     }
     .banner-subtitle.mt--9 {
         margin-top: -8px;
@@ -419,18 +405,10 @@
         margin-bottom: 9px;
     }
     .banner-title {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 70px;
     }
     .banner-title.mb-7 {
         margin-bottom: 9px;
-    }
-    .banner-paragraph {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .banner-paragraph.mb-11 {
-        margin-bottom: 7px;
     }
     .btn-box {
         gap: 15px;
@@ -467,8 +445,7 @@
         padding-bottom: 80px;
     }
     .breadcrumb-title {
-        font-size: 30px;
-        line-height: 1.3;
+        font-size: 60px;
     }
     .breadcrumb-title.mt--23 {
         margin-top: -7px;
@@ -500,8 +477,13 @@
         margin-top: -5px;
     }
     .feature-img {
-        width: 296px;
+        width: 100%;
         margin: auto;
+    }
+    .feature-img img {
+       max-height: 600px;
+       width: 100%;
+       object-fit: cover;
     }
 
     /* ======================
@@ -523,9 +505,6 @@
     .feature-box.mb-70 {
         margin-bottom: 25px;
     }
-    .feature-txt p.mb--8 {
-        margin-bottom: -7px;
-    }
 
     /* ======================
     Cta section
@@ -542,14 +521,7 @@
     About section
     ====================== */
     .about-title {
-        font-size: 26px;
-        line-height: 36px;
-    }
-    .about-title.mt--8 {
-        margin-top: -7px;
-    }
-    .about-title.mb-25 {
-        margin-bottom: 12px;
+        font-size: 40px;
     }
     .about p.fw-bold {
         font-weight: 500 !important;
@@ -580,35 +552,8 @@
     /* ======================
     Popular Class section
     ====================== */
-    .class-title {
-        font-size: 18px;
-    }
-    .class-title.mt--7 {
-        margin-top: -9px;
-    }
-    .class-title.mb-6 {
-        margin-bottom: 8px;
-    }
-    .class-time {
-        font-size: 14px;
-    }
-    .class-time.mb-15 {
-        margin-bottom: 17px;
-    }
-    .class-info.mt-30 {
-        margin-top: 25px;
-    }
     .amount {
         font-size: 16px;
-    }
-    .amount.mt--8 {
-        margin-top: -6px;
-    }
-    .amount.mb--8 {
-        margin-bottom: -7px;
-    }
-    .popular-class-btn.pt-60 {
-        padding-top: 0;
     }
 
     /* ======================
@@ -624,10 +569,13 @@
         margin-bottom: -45px;
     }
     .counter-txt {
-        font-size: 30px;
+        font-size: 40px;
         &.mb-20 {
-            margin-bottom: 9px;
+            margin-bottom: 10px;
         }
+    }
+    .counter-sub-txt {
+        font-size: 20px;
     }
 
     /* ======================
@@ -650,36 +598,11 @@
     /* ======================
     Staff section
     ====================== */
-    .staff-card-img.mb-30 {
-        margin-bottom: 20px;
-    }
     .staff-name {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 24px;
     }
     .staff-name.mb-0 {
         margin-bottom: 2px !important;
-    }
-    .staff-position {
-        font-size: 14px;
-    }
-    .staff-position.mb--8 {
-        margin-bottom: -3px;
-    }
-    .staff-social-btn {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-1 {
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-2 {
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-3 {
-        background-size: 40px;
     }
 
     /* ======================
@@ -687,7 +610,7 @@
     ====================== */
 
     .app-download-btn {
-        max-width: 100px;
+        max-width: 115px;
     }
     .app-download-btn.mr-75 {
         margin-right: 25px;
@@ -713,16 +636,9 @@
     /* ======================
     Facility section
     ====================== */
-
-    .facility-img-area {
-        min-height: 100px;
-    }
-    .facility-card-txt.p-50 {
-        padding: 25px 0;
-    }
     .facility-card-txt.px-50 {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
     .facility-icon {
         width: 50px;
@@ -731,22 +647,9 @@
             width: 60%;
         }
     }
-    .facility-icon.mb-30 {
-        margin-bottom: 25px;
-    }
-    .facility-icon-minus-top {
-        margin-top: -20px;
-    }
     .facility-title {
-        font-size: 16px;
+        font-size: 24px;
     }
-    .facility-title.mt--2 {
-        margin-top: -1px;
-    }
-    .facility-title.mb-25 {
-        margin-bottom: 16px;
-    }
-
     /* ======================
     Gallery section
     ====================== */
@@ -756,13 +659,10 @@
     .controls {
         justify-content: center;
         flex-wrap: wrap;
-        column-gap: 15px;
+        column-gap: 25px;
     }
     .gallery-filter-btn {
         font-size: 14px;
-    }
-    .gallery-filter-btn.pb-17 {
-        padding-bottom: 12px;
     }
     .gallery-filter-btn.ml-20 {
         margin-left: 0;
@@ -781,16 +681,13 @@
         width: calc(100% / 2);
     }
     .gallery-title {
-        font-size: 18px;
+        font-size: 20px;
     }
     .gallery-title.mt--3 {
         margin-top: -1px;
     }
     .gallery-title.mb-10 {
         margin-bottom: 12px;
-    }
-    .gallery-sub-title {
-        font-size: 14px;
     }
     .gallery-sub-title.mb--2 {
         margin-bottom: -3px;
@@ -806,7 +703,7 @@
         margin-bottom: 25px;
     }
     .feedback-title {
-        font-size: 25px;
+        font-size: 27px;
         line-height: 35px;
     }
     .feedback-title.mt--3 {
@@ -816,7 +713,7 @@
         margin-bottom: 6px;
     }
     .feedback-txt {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
     }
     .feedback-txt.mb-41 {
@@ -842,28 +739,14 @@
         padding-right: 20px;
     }
     .blog-title {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 24px;
     }
     .blog-title.mt--2 {
         margin-top: -6px;
     }
-    .blog-title.mb-20 {
-        margin-bottom: 7px;
-    }
     .blog-bottom-part.px-20 {
         padding-left: 15px !important;
         padding-right: 15px !important;
-    }
-    .blog-single-stat {
-        font-size: 14px;
-        img {
-            width: auto;
-            height: 12px;
-            &.mr-10 {
-                margin-right: 5px;
-            }
-        }
     }
 
 
@@ -914,24 +797,11 @@
         padding-right: 10px;
     }
     .footer-info-icon-wrap {
-        height: 25px;
+        height: 45px;
         img {
             height: auto;
             max-height: 100%;
         }
-    }
-    .footer-info-icon-wrap.mr-20 {
-        margin-right: 10px;
-    }
-    .footer-info-txt-area {
-        width: calc(100% - 30px);
-    }
-    .footer-info-title {
-        font-size: 14px;
-    }
-    .footer-info-txt {
-        font-size: 14px;
-        font-weight: 500;
     }
 
     .footer-card.pr-30 {
@@ -949,9 +819,7 @@
     .footer-card-txt.mt--6 {
         margin-top: -5px;
     }
-    .footer-card-txt.mb-26 {
-        margin-bottom: 12px;
-    }
+
     .footer-follow-dialogue.mb-23 {
         margin-bottom: 18px;
     }
@@ -962,16 +830,8 @@
         margin-bottom: -11px;
     }
     .footer-link {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
-    }
-    .footer-input {
-        height: 45px;
-        font-size: 14px;
-    }
-    .footer-input.px-35 {
-        padding-left: 15px;
-        padding-right: 15px;
     }
     .bottom-footer p {
         text-align: center;
@@ -984,7 +844,7 @@
     }
     .bottom-footer-social {
         height: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .bottom-footer-social.mr-40 {
         margin-right: 0;
@@ -1112,63 +972,8 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .class-comment-username {
-        font-size: 14px;
-    }
-    .class-comment-username.mb-22 {
-        margin-bottom: 12px;
-    }
-    .class-comment-details.mb-22 {
-        margin-bottom: 12px;
-    }
     .class-comment-actions {
         gap: 10px;
-    }
-    .def-form.mb-30 {
-        margin-bottom: 20px;
-    }
-    .comment-textarea {
-        height: 100px;
-    }
-    .comment-textarea.mb-50 {
-        margin-bottom: 20px;
-    }
-    .def-sidebar {
-        max-width: 320px;
-        margin: auto;
-    }
-    .sidebar-box.p-50 {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .sidebar-box.px-30 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sidebar-box.mb-50 {
-        margin-bottom: 30px;
-    }
-    .sidebar-title {
-        font-size: 16px;
-    }
-    .sidebar-title.mt--2 {
-        margin-top: -1px;
-    }
-    .sidebar-title.mb-30 {
-        margin-bottom: 20px;
-    }
-    .sidebar-search-box.px-25 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .sidebar-search-input {
-        height: 40px;
-    }
-    .sidebar-class-categories.mt--14 {
-        margin-top: -12px;
-    }
-    .class-thumb.mr-20 {
-        margin-right: 10px;
     }
     .sidebar-class-txt {
         width: calc(100% - 70px);
@@ -1744,28 +1549,21 @@
     /* ====================================================
     global style
     ==================================================== */
-    .section-heading.mb-70 {
-        margin-bottom: 40px;
-    }
-    .section-heading.mb-60 {
-        margin-bottom: 30px;
-    }
     .section-title {
         font-size: 38px;
     }
-    .section-title.mt--8 {
-        margin-top: -7px;
+    .counter-box-2 .counter-txt.mb-14 {
+        margin-bottom: 10px;
     }
-    .section-title.mb-15 {
-        margin-bottom: 12px;
+    .counter-box-2 .counter-icon.mb-21 {
+        margin-bottom: 15px;
     }
-
-
-    /* ====================================================
-    Home page
-    ==================================================== */
-
-    
+    .counter-box-2 .counter-part-txt {
+        padding: 0 25px;
+    }
+    .counter-sub-txt {
+        font-size: 20px;
+    }
     /* ======================
     Header section
     ====================== */
@@ -1798,10 +1596,10 @@
         text-align: center;
     }
     .header-right-txt {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
         border-top: 1px solid rgba($white, 0.3);
     }
     .bottom-header {
@@ -1850,29 +1648,10 @@
         padding: 80px 0;
     }
     .banner-subtitle {
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 300;
-    }
-    .banner-subtitle.mt--9 {
-        margin-top: -8px;
-    }
-    .banner-subtitle.mb-7 {
-        margin-bottom: 9px;
+        font-size: 22px;
     }
     .banner-title {
-        font-size: 35px;
-        line-height: 45px;
-    }
-    .banner-title.mb-7 {
-        margin-bottom: 9px;
-    }
-    .banner-paragraph {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .banner-paragraph.mb-11 {
-        margin-bottom: 7px;
+        font-size: 55px;
     }
     .btn-box {
         gap: 15px;
@@ -1911,8 +1690,7 @@
         padding-bottom: 80px;
     }
     .breadcrumb-title {
-        font-size: 30px;
-        line-height: 1.3;
+        font-size: 55px;
     }
     .breadcrumb-title.mt--23 {
         margin-top: -7px;
@@ -1924,9 +1702,7 @@
     /* ======================
     Feature section
     ====================== */
-    .r-gap-70 {
-        row-gap: 24px;
-    }
+
     .feature-part-icon {
         width: 70px;
         height: 70px;
@@ -1942,10 +1718,6 @@
     }
     .feature-txt p.mt--6 {
         margin-top: -5px;
-    }
-    .feature-img {
-        width: 296px;
-        margin: auto;
     }
 
     /* ======================
@@ -1993,80 +1765,22 @@
     ====================== */
 
     .about-title {
-        font-size: 26px;
-        line-height: 36px;
-    }
-    .about-title.mt--8 {
-        margin-top: -7px;
-    }
-    .about-title.mb-25 {
-        margin-bottom: 12px;
-    }
-    .about p.fw-bold {
-        font-weight: 500 !important;
-    }
-    .about p.mb-16 {
-        margin-bottom: 12px;
-    }
-    .about p.mb-35 {
-        margin-bottom: 21px;
+        font-size: 38px;
     }
     .about-list {
-        font-size: 14px;
-        font-weight: 500 !important;
-        &.mt--7 {
-            margin-top: -5px;
-        }
-        &.mb--7 {
-            margin-bottom: -6px;
-        }
         span.mr-30 {
             margin-right: 15px;
         }
-    }
-    .btn-box.pt-40 {
-        padding-top: 30px;
     }
 
     /* ======================
     Popular Class section
     ====================== */
-    .class-card {
-        width: 296px;
-        margin: auto;
-        &.class-card-2 {
-            width: 100%;
-        }
-    }
     .class-title {
-        font-size: 20px;
-    }
-    .class-title.mt--7 {
-        margin-top: -9px;
-    }
-    .class-title.mb-6 {
-        margin-bottom: 8px;
-    }
-    .class-time {
-        font-size: 14px;
-    }
-    .class-time.mb-15 {
-        margin-bottom: 17px;
-    }
-    .class-info.mt-30 {
-        margin-top: 25px;
+        font-size: 24px;
     }
     .amount {
         font-size: 16px;
-    }
-    .amount.mt--8 {
-        margin-top: -6px;
-    }
-    .amount.mb--8 {
-        margin-bottom: -7px;
-    }
-    .popular-class-btn.pt-60 {
-        padding-top: 0;
     }
 
     /* ======================
@@ -2083,9 +1797,9 @@
         margin-bottom: -45px;
     }
     .counter-txt {
-        font-size: 30px;
+        font-size: 42px;
         &.mb-20 {
-            margin-bottom: 9px;
+            margin-bottom: 10px;
         }
     }
 
@@ -2108,18 +1822,11 @@
     /* ======================
     Staff section
     ====================== */
-    .staff-card-img.mb-30 {
-        margin-bottom: 20px;
-    }
     .staff-name {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 24px;
     }
     .staff-name.mb-0 {
         margin-bottom: 2px !important;
-    }
-    .staff-position {
-        font-size: 14px;
     }
     .staff-position.mb--8 {
         margin-bottom: -3px;
@@ -2145,7 +1852,7 @@
     ====================== */
 
     .app-download-btn {
-        max-width: 100px;
+        max-width: 115px;
     }
     .app-download-btn.mr-75 {
         margin-right: 25px;
@@ -2171,37 +1878,8 @@
     /* ======================
     Facility section
     ====================== */
-    .facility-img-area {
-        min-height: 100px;
-    }
-    .facility-card-txt.p-50 {
-        padding: 25px 0;
-    }
-    .facility-card-txt.px-50 {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .facility-icon {
-        width: 50px;
-        height: 50px;
-        img {
-            width: 60%;
-        }
-    }
-    .facility-icon.mb-30 {
-        margin-bottom: 25px;
-    }
-    .facility-icon-minus-top {
-        margin-top: -20px;
-    }
     .facility-title {
-        font-size: 16px;
-    }
-    .facility-title.mt--2 {
-        margin-top: -1px;
-    }
-    .facility-title.mb-25 {
-        margin-bottom: 16px;
+        font-size: 24px;
     }
 
     /* ======================
@@ -2213,13 +1891,10 @@
     .controls {
         justify-content: center;
         flex-wrap: wrap;
-        column-gap: 15px;
+        column-gap: 25px;
     }
     .gallery-filter-btn {
         font-size: 14px;
-    }
-    .gallery-filter-btn.pb-17 {
-        padding-bottom: 12px;
     }
     .gallery-filter-btn.ml-20 {
         margin-left: 0;
@@ -2231,27 +1906,17 @@
         margin-left: 0;
         margin-right: 0;
     }
-    .gallery-filter-btn:after {
-        width: 6px;
-        height: 6px;
-        bottom: 8px;
-        border: 0;
-        background: $gradient-1;
-    }
     .gallery-image {
         width: calc(50% - 24px);
     }
     .gallery-title {
-        font-size: 18px;
+        font-size: 20px;
     }
     .gallery-title.mt--3 {
         margin-top: -1px;
     }
     .gallery-title.mb-10 {
         margin-bottom: 12px;
-    }
-    .gallery-sub-title {
-        font-size: 14px;
     }
     .gallery-sub-title.mb--2 {
         margin-bottom: -3px;
@@ -2262,9 +1927,6 @@
     ====================== */
     .gallery-image-2 {
         width: 50%;
-    }
-    .gallery-btn.pt-70 {
-        padding-top: 30px;
     }
 
     /* ======================
@@ -2307,43 +1969,9 @@
     Blog section
     ====================== */
 
-    .blog-card {
-        max-width: 296px;
-        margin: 0 auto;
-    }
-    .blog-card-txt.p-30 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .blog-card-txt.px-30 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .blog-title {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 24px;
     }
-    .blog-title.mt--2 {
-        margin-top: -6px;
-    }
-    .blog-title.mb-20 {
-        margin-bottom: 7px;
-    }
-    .blog-bottom-part.px-20 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .blog-single-stat {
-        font-size: 14px;
-        img {
-            width: auto;
-            height: 12px;
-            &.mr-10 {
-                margin-right: 5px;
-            }
-        }
-    }
-
 
     /* ======================
     Contact section
@@ -2383,8 +2011,8 @@
         justify-content: center;
     }
     .footer-single-info.p-35 {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .footer-single-info.px-30 {
         padding-left: 20px;
@@ -2395,24 +2023,17 @@
         border-left: 0;
     }
     .footer-info-icon-wrap {
-        height: 30px;
+        height: 40px;
     }
     .footer-info-txt-area {
         width: max-content;
-    }
-    .footer-info-title {
-        font-size: 14px;
-    }
-    .footer-info-txt {
-        font-size: 14px;
-        font-weight: 500;
     }
 
     .footer-card.pr-30 {
         padding-right: 0;
     }
     .footer-card-title {
-        font-size: 20px;
+        font-size: 22px;
     }
     .footer-card-title.pb-27 {
         padding-bottom: 18px;
@@ -2422,9 +2043,6 @@
     }
     .footer-card-txt.mt--6 {
         margin-top: -5px;
-    }
-    .footer-card-txt.mb-26 {
-        margin-bottom: 12px;
     }
     .footer-follow-dialogue.mb-23 {
         margin-bottom: 18px;
@@ -2436,16 +2054,7 @@
         margin-bottom: -11px;
     }
     .footer-link {
-        font-size: 14px;
         line-height: 30px;
-    }
-    .footer-input {
-        height: 45px;
-        font-size: 14px;
-    }
-    .footer-input.px-35 {
-        padding-left: 15px;
-        padding-right: 15px;
     }
     .bottom-footer p {
         text-align: center;
@@ -2458,7 +2067,7 @@
     }
     .bottom-footer-social {
         height: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .bottom-footer-social.mr-40 {
         margin-right: 0;
@@ -2593,66 +2202,8 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .class-comment-username {
-        font-size: 14px;
-    }
-    .class-comment-username.mb-22 {
-        margin-bottom: 12px;
-    }
-    .class-comment-details.mb-22 {
-        margin-bottom: 12px;
-    }
     .class-comment-actions {
         gap: 10px;
-    }
-    .def-form.mb-30 {
-        margin-bottom: 20px;
-    }
-    .comment-textarea {
-        height: 100px;
-    }
-    .comment-textarea.mb-50 {
-        margin-bottom: 20px;
-    }
-    .def-sidebar {
-        max-width: 320px;
-        margin: auto;
-    }
-    .sidebar-box.p-50 {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .sidebar-box.px-30 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sidebar-box.mb-50 {
-        margin-bottom: 30px;
-    }
-    .sidebar-title {
-        font-size: 16px;
-    }
-    .sidebar-title.mt--2 {
-        margin-top: -1px;
-    }
-    .sidebar-title.mb-30 {
-        margin-bottom: 20px;
-    }
-    .sidebar-search-box.px-25 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .sidebar-search-input {
-        height: 40px;
-    }
-    .sidebar-class-categories.mt--14 {
-        margin-top: -12px;
-    }
-    .class-thumb.mr-20 {
-        margin-right: 10px;
-    }
-    .sidebar-class-txt {
-        width: calc(100% - 70px);
     }
 
 
@@ -3224,33 +2775,34 @@
     /* ====================================================
     global style
     ==================================================== */
-    .section-heading.mb-70 {
-        margin-bottom: 40px;
+    .course__sort-inner {
+        margin-top: 15px;
     }
-    .section-heading.mb-60 {
-        margin-bottom: 30px;
+    .course__sort-inner .nice-select .list {
+        left: 0;
+        right: auto;
+      }
+    .part-txt.part-text-list {
+        padding: 40px 30px;
     }
     .section-title {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 36px;
     }
-    .section-title.mt--8 {
-        margin-top: -7px;
+    .counter-part-txt {
+        padding: 0 30px;
     }
-    .section-title.mb-15 {
-        margin-bottom: 12px;
+    .class-card.class-card-2 .part-img {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: 100%;
     }
-    .heading-sub-txt {
-        font-size: 14px;
-        line-height: 24px;
+    .class-card.class-card-2 {
+        flex-direction: column;
     }
-
-
-    /* ====================================================
-    Home page
-    ==================================================== */
-
-    
+    .class-card.class-card-2 .popular-class-txt {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     /* ======================
     Header section
     ====================== */
@@ -3279,10 +2831,10 @@
         text-align: center;
     }
     .header-right-txt {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
         border-top: 1px solid rgba($white, 0.3);
     }
     .bottom-header {
@@ -3331,29 +2883,13 @@
         padding: 80px 0;
     }
     .banner-subtitle {
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 300;
-    }
-    .banner-subtitle.mt--9 {
-        margin-top: -8px;
-    }
-    .banner-subtitle.mb-7 {
-        margin-bottom: 9px;
+        font-size: 22px;
     }
     .banner-title {
-        font-size: 35px;
-        line-height: 45px;
-    }
-    .banner-title.mb-7 {
-        margin-bottom: 9px;
+        font-size: 50px;
     }
     .banner-paragraph {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .banner-paragraph.mb-11 {
-        margin-bottom: 7px;
+        font-size: 18px;
     }
     .btn-box {
         gap: 15px;
@@ -3392,8 +2928,7 @@
         padding-bottom: 80px;
     }
     .breadcrumb-title {
-        font-size: 30px;
-        line-height: 1.3;
+        font-size: 50px;
     }
     .breadcrumb-title.mt--23 {
         margin-top: -7px;
@@ -3405,28 +2940,12 @@
     /* ======================
     Feature section
     ====================== */
-    .r-gap-70 {
-        row-gap: 24px;
-    }
     .feature-part-icon {
         width: 70px;
         height: 70px;
     }
     .feature-txt {
         width: calc(100% - 90px);
-    }
-    .feature-sub-title.mt--7 {
-        margin-top: -6px;
-    }
-    .divider.m-30 {
-        margin: 15px 0;
-    }
-    .feature-txt p.mt--6 {
-        margin-top: -5px;
-    }
-    .feature-img {
-        width: 296px;
-        margin: auto;
     }
 
     /* ======================
@@ -3472,33 +2991,9 @@
     ====================== */
 
     .about-title {
-        font-size: 26px;
-        line-height: 36px;
-    }
-    .about-title.mt--8 {
-        margin-top: -7px;
-    }
-    .about-title.mb-25 {
-        margin-bottom: 12px;
-    }
-    .about p.fw-bold {
-        font-weight: 500 !important;
-    }
-    .about p.mb-16 {
-        margin-bottom: 12px;
-    }
-    .about p.mb-35 {
-        margin-bottom: 21px;
+        font-size: 36px;
     }
     .about-list {
-        font-size: 14px;
-        font-weight: 500 !important;
-        &.mt--7 {
-            margin-top: -5px;
-        }
-        &.mb--7 {
-            margin-bottom: -6px;
-        }
         span.mr-30 {
             margin-right: 15px;
         }
@@ -3510,39 +3005,11 @@
     /* ======================
     Popular Class section
     ====================== */
-    .class-card {
-        width: 296px;
-        margin: auto;
-    }
     .class-title {
-        font-size: 18px;
-    }
-    .class-title.mt--7 {
-        margin-top: -9px;
-    }
-    .class-title.mb-6 {
-        margin-bottom: 8px;
-    }
-    .class-time {
-        font-size: 14px;
-    }
-    .class-time.mb-15 {
-        margin-bottom: 17px;
-    }
-    .class-info.mt-30 {
-        margin-top: 25px;
+        font-size: 24px;
     }
     .amount {
         font-size: 16px;
-    }
-    .amount.mt--8 {
-        margin-top: -6px;
-    }
-    .amount.mb--8 {
-        margin-bottom: -7px;
-    }
-    .popular-class-btn.pt-60 {
-        padding-top: 0;
     }
 
     /* ======================
@@ -3565,9 +3032,9 @@
         margin-bottom: -45px;
     }
     .counter-txt {
-        font-size: 30px;
+        font-size: 39px;
         &.mb-20 {
-            margin-bottom: 9px;
+            margin-bottom: 10px;
         }
     }
 
@@ -3599,40 +3066,14 @@
     /* ======================
     Staff section
     ====================== */
-    .staff-card {
-        width: 270px;
-        margin: auto;
-    }
-    .staff-card-img.mb-30 {
-        margin-bottom: 20px;
-    }
     .staff-name {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 24px;
     }
     .staff-name.mb-0 {
         margin-bottom: 2px !important;
     }
-    .staff-position {
-        font-size: 14px;
-    }
-    .staff-position.mb--8 {
-        margin-bottom: -3px;
-    }
-    .staff-social-btn {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-1 {
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-2 {
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-3 {
-        background-size: 40px;
+    .kb-staff-card-social-share-1-1 a:not(:last-child) {
+        margin-right: 10px;
     }
 
     /* ======================
@@ -3667,41 +3108,12 @@
     Facility section
     ====================== */
 
-    .facility-card {
-        width: 270px;
-        margin: auto;
+    .facility-title {
+        font-size: 24px;
     }
     .facility-img-area {
-        min-height: 100px;
-    }
-    .facility-card-txt.p-50 {
-        padding: 25px 0;
-    }
-    .facility-card-txt.px-50 {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .facility-icon {
-        width: 50px;
-        height: 50px;
-        img {
-            width: 60%;
-        }
-    }
-    .facility-icon.mb-30 {
-        margin-bottom: 25px;
-    }
-    .facility-icon-minus-top {
-        margin-top: -20px;
-    }
-    .facility-title {
-        font-size: 16px;
-    }
-    .facility-title.mt--2 {
-        margin-top: -1px;
-    }
-    .facility-title.mb-25 {
-        margin-bottom: 16px;
+        min-height: 190px;
+        height: 190px;
     }
 
     /* ======================
@@ -3717,9 +3129,6 @@
     }
     .gallery-filter-btn {
         font-size: 14px;
-    }
-    .gallery-filter-btn.pb-17 {
-        padding-bottom: 12px;
     }
     .gallery-filter-btn.ml-20 {
         margin-left: 0;
@@ -3750,16 +3159,13 @@
         margin-bottom: 20px;
     }
     .gallery-title {
-        font-size: 18px;
+        font-size: 20px;
     }
     .gallery-title.mt--3 {
         margin-top: -1px;
     }
     .gallery-title.mb-10 {
         margin-bottom: 12px;
-    }
-    .gallery-sub-title {
-        font-size: 14px;
     }
     .gallery-sub-title.mb--2 {
         margin-bottom: -3px;
@@ -3768,11 +3174,13 @@
     /* ======================
     Gallery section Two (2)
     ====================== */
-    .gallery-image-2 {
-        width: 50%;
+    .gallery-images {
+        width: 100%;
     }
-    .gallery-btn.pt-70 {
-        padding-top: 30px;
+    .gallery-image {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     /* ======================
@@ -3782,30 +3190,19 @@
         margin-bottom: 25px;
     }
     .quote-icon {
-        width: 70px;
+        width: 80px;
     }
     .quote-icon.mb-30 {
         margin-bottom: 25px;
     }
     .feedback-title {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 29px;
     }
     .feedback-title.mt--3 {
         margin-top: -7px;
     }
-    .feedback-title.mb-17 {
-        margin-bottom: 6px;
-    }
-    .feedback-txt {
-        font-size: 14px;
-        line-height: 24px;
-    }
     .feedback-txt.mb-41 {
         margin-bottom: 17px;
-    }
-    .client-name {
-        font-size: 14px;
     }
     .divider.mb-30 {
         margin-bottom: 25px;
@@ -3814,48 +3211,9 @@
     /* ======================
     Blog section
     ====================== */
-    .blog-card {
-        max-width: 296px;
-        margin: 0 auto;
-    }
-    .blog-card-txt.p-30 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .blog-card-txt.px-30 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .blog-title {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 24px;
     }
-    .blog-title.mt--2 {
-        margin-top: -6px;
-    }
-    .blog-title.mb-20 {
-        margin-bottom: 7px;
-    }
-    .blog-bottom-part.px-20 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .blog-single-stat {
-        font-size: 14px;
-        img {
-            width: auto;
-            height: 12px;
-            &.mr-10 {
-                margin-right: 5px;
-            }
-        }
-    }
-
-    /* ======================
-    Partner section
-    ====================== */
-
-
 
     /* ======================
     Contact section
@@ -3907,36 +3265,23 @@
         border-left: 0;
     }
     .footer-info-icon-wrap {
-        height: 30px;
+        height: 40px;
     }
     .footer-info-txt-area {
         width: max-content;
     }
-    .footer-info-title {
-        font-size: 14px;
-    }
-    .footer-info-txt {
-        font-size: 14px;
-        font-weight: 500;
-    }
 
     .footer-card-title {
-        font-size: 20px;
+        font-size: 24px;
     }
     .footer-card.pr-30 {
         padding-right: 0;
-    }
-    .footer-card-title.pb-27 {
-        padding-bottom: 18px;
     }
     .footer-card-title.mb-25 {
         margin-bottom: 20px;
     }
     .footer-card-txt.mt--6 {
         margin-top: -5px;
-    }
-    .footer-card-txt.mb-26 {
-        margin-bottom: 12px;
     }
     .footer-follow-dialogue.mb-23 {
         margin-bottom: 18px;
@@ -3948,17 +3293,9 @@
         margin-bottom: -11px;
     }
     .footer-link {
-        font-size: 14px;
         line-height: 30px;
     }
-    .footer-input {
-        height: 45px;
-        font-size: 14px;
-    }
-    .footer-input.px-35 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
     .bottom-footer p {
         text-align: center;
         margin-top: 20px;
@@ -3970,7 +3307,7 @@
     }
     .bottom-footer-social {
         height: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .bottom-footer-social.mr-40 {
         margin-right: 0;
@@ -4750,37 +4087,53 @@
 }
 
 /*small mobile device*/
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
     /* ====================================================
     global style
     ==================================================== */
-    .section-heading.mb-70 {
-        margin-bottom: 40px;
+    .course__sort-inner {
+        margin-top: 15px;
     }
-    .section-heading.mb-60 {
-        margin-bottom: 30px;
+    .course__sort-inner .nice-select .list {
+        left: 0;
+        right: auto;
+      }
+    .basic-pagination ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+    .part-txt.part-text-list {
+        padding: 40px 30px;
+    }
+    .class-card.class-card-2 .part-img {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    .counter-part-txt {
+        padding: 0 30px;
+    }
+    .class-card.class-card-2 {
+        flex-direction: column;
+    }
+    .class-card.class-card-2 .popular-class-txt {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .section-title {
         font-size: 26px;
-        line-height: 36px;
     }
-    .section-title.mt--8 {
-        margin-top: -7px;
+    .banner-txt .btn-box .def-btn {
+        padding: 0 18px;
     }
-    .section-title.mb-15 {
-        margin-bottom: 12px;
-    }
-    .heading-sub-txt {
+    .def-btn {
         font-size: 14px;
-        line-height: 24px;
     }
-
-
-    /* ====================================================
-    Home page
-    ==================================================== */
-
-    
+    .vertical-border {
+        display: none;
+    }
+    .facility-icon-minus-top {
+        margin-top: 0px;
+    }
     /* ======================
     Header section
     ====================== */
@@ -4809,10 +4162,10 @@
         text-align: center;
     }
     .header-right-txt {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
         border-top: 1px solid rgba($white, 0.3);
     }
     .bottom-header {
@@ -4861,32 +4214,17 @@
     }
     .banner-subtitle {
         font-size: 20px;
-        line-height: 30px;
-        font-weight: 300;
-    }
-    .banner-subtitle.mt--9 {
-        margin-top: -8px;
-    }
-    .banner-subtitle.mb-7 {
-        margin-bottom: 9px;
     }
     .banner-title {
-        font-size: 35px;
-        line-height: 45px;
-    }
-    .banner-title.mb-7 {
-        margin-bottom: 9px;
+        font-size: 38px;
     }
     .banner-paragraph {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .banner-paragraph.mb-11 {
-        margin-bottom: 7px;
+        font-size: 18px;
     }
     .btn-box {
         gap: 15px;
     }
+
 
     /* ======================
     Banner section two (2)
@@ -4925,8 +4263,7 @@
         padding-bottom: 80px;
     }
     .breadcrumb-title {
-        font-size: 30px;
-        line-height: 1.3;
+        font-size: 40px;
     }
     .breadcrumb-title.mt--23 {
         margin-top: -7px;
@@ -4950,21 +4287,11 @@
     }
     .feature-sub-title {
         font-size: 20px;
-        line-height: 28px;
-    }
-    .feature-sub-title.mt--7 {
-        margin-top: -6px;
     }
     .divider.m-30 {
         margin: 15px 0;
     }
-    .feature-txt p.mt--6 {
-        margin-top: -5px;
-    }
-    .feature-img {
-        width: 296px;
-        margin: auto;
-    }
+
     .feature-part-icon.mr-30 {
         margin-right: 20px;
     }
@@ -5032,8 +4359,6 @@
         margin-bottom: 21px;
     }
     .about-list {
-        font-size: 14px;
-        font-weight: 500 !important;
         &.mt--7 {
             margin-top: -5px;
         }
@@ -5051,39 +4376,14 @@
     /* ======================
     Popular Class section
     ====================== */
-    .class-card {
-        width: 296px;
-        margin: auto;
-    }
     .class-title {
-        font-size: 18px;
-    }
-    .class-title.mt--7 {
-        margin-top: -9px;
-    }
-    .class-title.mb-6 {
-        margin-bottom: 8px;
+        font-size: 22px;
     }
     .class-time {
         font-size: 14px;
     }
-    .class-time.mb-15 {
-        margin-bottom: 17px;
-    }
-    .class-info.mt-30 {
-        margin-top: 25px;
-    }
     .amount {
         font-size: 16px;
-    }
-    .amount.mt--8 {
-        margin-top: -6px;
-    }
-    .amount.mb--8 {
-        margin-bottom: -7px;
-    }
-    .popular-class-btn.pt-60 {
-        padding-top: 0;
     }
 
     /* ======================
@@ -5107,10 +4407,13 @@
         margin-bottom: -45px;
     }
     .counter-txt {
-        font-size: 30px;
+        font-size: 39px;
         &.mb-20 {
-            margin-bottom: 9px;
+            margin-bottom: 10px;
         }
+    }
+    .counter-sub-txt {
+        font-size: 18px;
     }
 
     /* ======================
@@ -5142,40 +4445,11 @@
     /* ======================
     Staff section
     ====================== */
-    .staff-card {
-        width: 270px;
-        margin: auto;
-    }
-    .staff-card-img.mb-30 {
-        margin-bottom: 20px;
-    }
     .staff-name {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 22px;
     }
     .staff-name.mb-0 {
         margin-bottom: 2px !important;
-    }
-    .staff-position {
-        font-size: 14px;
-    }
-    .staff-position.mb--8 {
-        margin-bottom: -3px;
-    }
-    .staff-social-btn {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-1 {
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-2 {
-        background-size: 40px;
-    }
-    .staff-social-btn.bg-3 {
-        background-size: 40px;
     }
 
     /* ======================
@@ -5183,7 +4457,7 @@
     ====================== */
 
     .app-download-btn {
-        max-width: 100px;
+        max-width: 110px;
     }
     .app-download-btn.mr-75 {
         margin-right: 25px;
@@ -5209,20 +4483,9 @@
     /* ======================
     Facility section
     ====================== */
-
-    .facility-card {
-        width: 270px;
-        margin: auto;
-    }
-    .facility-img-area {
-        min-height: 100px;
-    }
-    .facility-card-txt.p-50 {
-        padding: 25px 0;
-    }
     .facility-card-txt.px-50 {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
     .facility-icon {
         width: 50px;
@@ -5234,17 +4497,8 @@
     .facility-icon.mb-30 {
         margin-bottom: 25px;
     }
-    .facility-icon-minus-top {
-        margin-top: -20px;
-    }
     .facility-title {
-        font-size: 16px;
-    }
-    .facility-title.mt--2 {
-        margin-top: -1px;
-    }
-    .facility-title.mb-25 {
-        margin-bottom: 16px;
+        font-size: 22px;
     }
 
     /* ======================
@@ -5262,7 +4516,8 @@
         font-size: 14px;
     }
     .gallery-filter-btn.pb-17 {
-        padding-bottom: 12px;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
     }
     .gallery-filter-btn.ml-20 {
         margin-left: 0;
@@ -5282,8 +4537,7 @@
         background: $gradient-1;
     }
     .gallery-images {
-        max-width: 320px;
-        margin: auto;
+        width: 100%;
     }
     .gallery-image {
         width: 100%;
@@ -5291,7 +4545,7 @@
         margin-right: 0;
     }
     .gallery-title {
-        font-size: 18px;
+        font-size: 20px;
     }
     .gallery-title.mt--3 {
         margin-top: -1px;
@@ -5299,14 +4553,8 @@
     .gallery-title.mb-10 {
         margin-bottom: 12px;
     }
-    .gallery-sub-title {
-        font-size: 14px;
-    }
     .gallery-sub-title.mb--2 {
         margin-bottom: -3px;
-    }
-    .gallery-btn.pt-70 {
-        padding-top: 30px;
     }
 
     /* ======================
@@ -5322,24 +4570,18 @@
         margin-bottom: 25px;
     }
     .feedback-title {
-        font-size: 25px;
+        font-size: 27px;
         line-height: 35px;
     }
     .feedback-title.mt--3 {
         margin-top: -7px;
     }
-    .feedback-title.mb-17 {
-        margin-bottom: 6px;
-    }
     .feedback-txt {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 28px;
     }
     .feedback-txt.mb-41 {
         margin-bottom: 17px;
-    }
-    .client-name {
-        font-size: 14px;
     }
     .divider.mb-30 {
         margin-bottom: 25px;
@@ -5348,48 +4590,9 @@
     /* ======================
     Blog section
     ====================== */
-    .blog-card {
-        max-width: 296px;
-        margin: 0 auto;
-    }
-    .blog-card-txt.p-30 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .blog-card-txt.px-30 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .blog-title {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 22px;
     }
-    .blog-title.mt--2 {
-        margin-top: -6px;
-    }
-    .blog-title.mb-20 {
-        margin-bottom: 7px;
-    }
-    .blog-bottom-part.px-20 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .blog-single-stat {
-        font-size: 14px;
-        img {
-            width: auto;
-            height: 12px;
-            &.mr-10 {
-                margin-right: 5px;
-            }
-        }
-    }
-
-    /* ======================
-    Partner section
-    ====================== */
-
-
 
     /* ======================
     Contact section
@@ -5441,7 +4644,7 @@
         border-left: 0;
     }
     .footer-info-icon-wrap {
-        height: 30px;
+        height: 40px;
     }
     .footer-info-txt-area {
         width: calc(100% - 50px);
@@ -5450,7 +4653,7 @@
         font-size: 14px;
     }
     .footer-info-txt {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
 
@@ -5458,7 +4661,7 @@
         padding-right: 0;
     }
     .footer-card-title {
-        font-size: 20px;
+        font-size: 22px;
     }
     .footer-card-title.pb-27 {
         padding-bottom: 18px;
@@ -5468,9 +4671,6 @@
     }
     .footer-card-txt.mt--6 {
         margin-top: -5px;
-    }
-    .footer-card-txt.mb-26 {
-        margin-bottom: 12px;
     }
     .footer-follow-dialogue.mb-23 {
         margin-bottom: 18px;
@@ -5482,16 +4682,7 @@
         margin-bottom: -11px;
     }
     .footer-link {
-        font-size: 14px;
         line-height: 30px;
-    }
-    .footer-input {
-        height: 45px;
-        font-size: 14px;
-    }
-    .footer-input.px-35 {
-        padding-left: 15px;
-        padding-right: 15px;
     }
     .bottom-footer p {
         text-align: center;
@@ -5504,7 +4695,7 @@
     }
     .bottom-footer-social {
         height: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .bottom-footer-social.mr-40 {
         margin-right: 0;
@@ -6283,10 +5474,16 @@
     }
 }
 @media (max-width: 767px) {
-    .facility-card-txt.px-50 {
-        padding-bottom: 50px;
+    .top-right {
+        margin-top: 10px;
     }
-    .class-info.d-flex.justify-content-between .vertical-border {
+    .kidba-features-wrapper.pl-60 {
+        padding-left: 0;
+    }
+    .contact-info.kitba-contact {
+        margin-bottom: 20px;
+    }
+    br {
         display: none;
     }
     .staff-card.mb-30 {
@@ -6302,6 +5499,13 @@
     .single-content-wrapper.mr-30 {
         margin-right: 0;
     }
+    .about {
+        background-position: top right;
+    }
+    .feature-img.ml-30{
+        margin-left: 0;
+    }
+
 
 
 }

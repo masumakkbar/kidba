@@ -24,13 +24,13 @@
     background-size: cover;
 }
 .banner-subtitle {
-    font-size: 28px;
+    font-size: 29px;
     line-height: 1.2;
     font-weight: 400;
     color: #fff;
 }
 .banner-subtitle-2 {
-    font-size: 28px;
+    font-size: 29px;
     line-height: 1.2;
     font-weight: 400;
     color: #fff;
@@ -41,16 +41,19 @@
     line-height: 1.2;
     text-transform: capitalize;
     color: $white;
+    font-weight: 600;
 }
 .banner-title-2 {
     font-size: 96px;
+    font-weight: 600;
     line-height: 1.2;
     text-transform: capitalize;
     color: $color-2;
 }
 .breadcrumb-title {
-    font-size: 62px;
+    font-size: 72px;
     line-height: 1.2;
+    font-weight: 600;
     color: $white;
     margin-bottom: 15px;
 }
@@ -59,13 +62,13 @@
     color: $white;
 }
 .banner-paragraph {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 1.5;
     color: $white;
 }
 .banner-paragraph-2 {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 1.5;
     color: $black;
 }
 .mr-25 {

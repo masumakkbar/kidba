@@ -6,10 +6,12 @@
     &.facility-card-one {
         background: url(../images/facility-img-1.jpg) center center no-repeat;
         background-size: cover;
+        background-position: top center;
     }
     &.facility-card-two {
         background: url(../images/facility-img-2.jpg) center center no-repeat;
         background-size: cover;
+        background-position: top center;
         .facility-icon {
             background: $gradient-4;
             box-shadow: 0px 25px 20px 0px rgba($color-3, 0.3);
@@ -18,6 +20,7 @@
     &.facility-card-three {
         background: url(../images/facility-img-3.jpg) center center no-repeat;
         background-size: cover;
+        background-position: top center;
         .facility-icon {
             background: $gradient-8;
             box-shadow: 0px 25px 20px 0px rgba($color-5, 0.3);
@@ -38,12 +41,16 @@
     justify-content: center;
 }
 .facility-title {
-    font-size: 24px;
-    line-height: 100%;
+    font-size: 29px;
+    line-height: 1.2;
     font-weight: 700;
-    color: $color-2;
+    a {
+        color: $color-2;
+    }
     &:hover {
-        color: $color-1;
+        a {
+            color: $color-1;
+        }
     }
 }
 .facility-card:hover .facility-icon img {

@@ -7,6 +7,9 @@
     }
 
 }
+.navbar-nav ul.dropdown-menu li:not(:last-child) {
+    margin-bottom: 5px;
+}
 .top-header {
     background: $color-1;
 }
@@ -103,8 +106,8 @@
     }
 }
 .nav-cart-icon {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     background: $gradient-4;
     border-radius: 50%;
     position: relative;
@@ -160,12 +163,13 @@
     li {
         a {
           text-transform: uppercase;
-          font-size: 14px;
+          font-size: 16px;
           color: #00394F;
           padding: 10px 0;
           font-weight: 700;
           transition: 0.4s;
           transform-origin: left;
+          display: inline-block;
           &:hover {
             color: #23CC88;
           }
@@ -173,6 +177,7 @@
         ul {
             li {
                 a {
+                    padding: 5px 0;
                     &:hover {
                         letter-spacing: 1px;
                     }

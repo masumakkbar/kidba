@@ -3,8 +3,8 @@
 }
 .blog-page-blog-title {
     display: inline-block;
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 36px;
+    line-height: 1.2;
     font-weight: 700;
     color: $color-2;
     &:hover, &:focus {
@@ -21,16 +21,17 @@
     height: 50px;
     line-height: 50px;
     font-size: 25px;
-    color: $black;
-    background: $white;
+    color: #fff;
+    background: #23cc88;
     border-radius: 50%;
     z-index: 5;
     &.btn-next {
         left: auto;
         right: 20px;
     }
-    &:hover, &:focus {
-        color: $color-3;
+    &:hover {
+        color: #23cc88;
+        background-color: #fff;
     }
 }
 .blog-page-video {
@@ -64,6 +65,8 @@
     font-size: 26px;
     position: relative;
     z-index: 2;
+    display: inline-block;
+    border-radius: 50%;
     &:before {
         content: "";
         position: absolute;
@@ -110,7 +113,7 @@
     height: 70px;
 }
 .blog-sidebar-title {
-    font-size: 18px;
+    font-size: 28px;
     line-height: 70px;
     font-weight: 700;
     color: $color-2;
@@ -145,9 +148,9 @@
     color: $black;
 }
 .popular-post-title {
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
     transition: $transition;
 }
 .popular-post-img {
@@ -157,7 +160,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 10px;
+    row-gap: 15px;
+    a {
+        flex: 0 0 calc(33% - 9px);max-width: calc(33% - 9px);
+    }
 }
 .blog-tags {
     display: flex;
@@ -165,14 +171,15 @@
     gap: 10px;
 }
 .tag-btn {
-    height: 35px;
-    line-height: 35px;
+    height: 40px;
+    line-height: 38px;
     font-size: 16px;
     color: $black;
-    border: 1px solid rgba($black, 0.2);
+    border: 1px solid #f3f3f3;
     border-radius: 3px;
     position: relative;
     z-index: 2;
+    padding: 0 15px;
     &:after {
         content: "";
         position: absolute;
@@ -240,7 +247,7 @@
     box-shadow: 0px 0px 5px 0px rgba($black, 0.1);
 }
 .admin-name {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 100%;
     font-weight: 700;
     color: $color-2;
@@ -257,8 +264,8 @@
 .blog-panel-title {
     height: 70px;
     border-bottom: 1px solid rgba($black, 0.06);
-    >* {
-        font-size: 18px;
+    h3 {
+        font-size: 28px;
         line-height: 70px;
         font-weight: 700;
         color: $color-2;
@@ -294,6 +301,9 @@
     font-weight: 700;
     text-transform: uppercase;
     color: $color-2;
+    &:hover {
+        color: #23cc88;
+    }
 }
 .blog-comment-textarea {
     height: 130px;
@@ -313,7 +323,7 @@
 span.lv-part-blog-calendar-date {
     position: absolute;
     left: 20px;
-    font-size: 14px;
+    font-size: 16px;
     top: 20px;
     background: #5CCD5C;
     color: #fff;
@@ -345,4 +355,70 @@ h4.footer-info-txt a:hover {
         padding: 180px 0;
         padding-bottom: 120px;
     }
+}
+
+.blog-image a {
+    display: block;
+}
+.single-blog-info span > a:hover {
+    color: #23cc88;
+}
+
+.video-image {
+    position: relative;
+    z-index: 1;
+    .blog-video-btn {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        i {
+            transition: 0.3s;
+        }
+        &:hover {
+            i {
+                color: #23cc88;
+            }
+        }
+    }
+}
+.ig-posts a:hover img {
+    filter: contrast(0.7);
+}
+.single-blog-txt {padding: 40px;}
+.blog-page-blog-single-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #00394f;
+}
+.blog-quote-txt-p {
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.blog-quote-txt {
+    span.d-block {
+        font-size: 20px;
+    }
+}
+.blog-quote-wrapper {
+    padding: 40px;
+}
+.px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.blog-nav-title {
+    transition: 0.3s;
+    &:hover {
+        color: #23cc88;
+    }
+}
+.blog-admin {padding: 40px;}
+.pr-40 {
+    padding-right: 40px;
+}
+.admin-name:hover {
+    color: #23cc88;
 }

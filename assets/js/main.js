@@ -107,6 +107,21 @@ $(document).ready(function(){
     });
 
     //=======================================================================
+    // Portfolio Isotop Data Filter
+    //=======================================================================
+    $('.popular-class-buttons').on( 'click', '.class-filter-btn', function() {
+        $(this).addClass('active').siblings().removeClass('active');
+        var filterValue = $(this).attr('data-filter');
+        $('.popular-classes-wrapper').isotope({ filter: filterValue });
+    });
+    $('.popular-classes-wrapper').imagesLoaded( function() {
+        $('.popular-classes-wrapper').isotope({
+            itemSelector: '.popular-class-item',
+            layoutMode: 'packery',
+        });
+    });
+
+    //=======================================================================
     // Gallery Image Popup
     //=======================================================================
     $('.gallery-popup').magnificPopup({
@@ -146,6 +161,11 @@ $(document).ready(function(){
     });
 
     //=======================================================================
+    // Nice Select
+    //=======================================================================
+    $('.course__sort-inner select').niceSelect();
+
+    //=======================================================================
     // Partner logo Slider
     //=======================================================================
     $('.partner-slider').slick({
@@ -160,13 +180,27 @@ $(document).ready(function(){
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1
                 }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
             }
-        ]
+        ],
     });
 
     //=======================================================================
@@ -248,7 +282,7 @@ $(document).ready(function(){
     $('.blog-image-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: '<button class="blog-slider-btn"><i class="fa-solid fa-caret-left"></i></button>',
-        nextArrow: '<button class="blog-slider-btn btn-next"><i class="fa-solid fa-caret-right"></i></button>',
+        prevArrow: '<button class="blog-slider-btn"><i class="icofont-caret-left"></i></button>',
+        nextArrow: '<button class="blog-slider-btn btn-next"><i class="icofont-caret-right"></i></button>',
     });
 })
