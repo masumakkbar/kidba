@@ -6605,6 +6605,70 @@ html .ui-button.ui-state-disabled:active {
   opacity: 0;
 }
 
+.simple-pagination ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.simple-pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+  background: transparent;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  padding: 0;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 2px solid #f6f6f6;
+  color: #00394f;
+}
+.simple-pagination li a:hover,
+.simple-pagination li span:hover {
+  color: #fff;
+  border-color: transparent;
+}
+.simple-pagination li a:focus, .simple-pagination li a:focus-within,
+.simple-pagination li span:focus,
+.simple-pagination li span:focus-within {
+  box-shadow: none;
+}
+
+.simple-pagination li a {
+  transform: translateY(-8px);
+}
+
+.simple-pagination .current {
+  color: #FFF;
+  background-color: #23cc88;
+  border-color: #23cc88;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+  background: #23cc88;
+  opacity: 0.3;
+}
+
+.pagination-container ul li a {
+  box-shadow: 0;
+}
+
+.pagination-container ul li a:hover {
+  background: #23cc88;
+}
+
 /*col-lg*/
 /*laptop*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

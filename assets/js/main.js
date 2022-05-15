@@ -8,6 +8,7 @@ $(document).ready(function(){
     // Modal Video / Video Popup Plugin Initialize
     //=======================================================================
     $(".video-btn, .blog-video-btn").modalVideo();
+    
 
     //=======================================================================
     // Odometer / Counter Plugin Initialize
@@ -107,20 +108,48 @@ $(document).ready(function(){
     });
 
     //=======================================================================
-    // Portfolio Isotop Data Filter
+    // ajax curse page
     //=======================================================================
-    // $('.popular-class-buttons').on( 'click', '.class-filter-btn', function() {
-    //     $(this).addClass('active').siblings().removeClass('active');
-    //     var filterValue = $(this).attr('data-filter');
-    //     $('.popular-classes-wrapper').isotope({ filter: filterValue });
-    // });
-    // $('.popular-classes-wrapper').imagesLoaded( function() {
-    //     $('.popular-classes-wrapper').isotope({
-    //         itemSelector: '.popular-class-item',
-    //         layoutMode: 'packery',
-    //     });
-    // });
+        // text count
+        // grid view
+        var items = $(".grid-wrapper .list-item");
+        var numItems = items.length;
+        var perPage = 6;
+        var paginationItemNum = numItems;
+        items.slice(perPage).hide();
+        $('.total-curse-count').text(numItems);
+        $('.pagination-container.has-paginate-grid').pagination({
+            items: paginationItemNum,
+            itemsOnPage: perPage,
+            prevText: "<i class='icofont-long-arrow-left'>",
+            nextText: "<i class='icofont-long-arrow-right'>",
+            onPageClick: function (pageNumber) {
+                var showFrom = perPage * (pageNumber - 1);
+                var showTo = showFrom + perPage;
+                items.hide().slice(showFrom, showTo).show();
+                
+            }
+        });
+            
 
+        // list view
+        var itemsList = $(".list-wrapper .list-item");
+        var numItemsList = itemsList.length;
+        var perPageList = 2;
+        var paginationItemNumList = numItemsList;
+        itemsList.slice(perPageList).hide();
+        $('.pagination-container.has-paginate-list').pagination({
+            items: paginationItemNumList,
+            itemsOnPage: perPageList,
+            prevText: "<i class='icofont-long-arrow-left'>",
+            nextText: "<i class='icofont-long-arrow-right'>",
+            onPageClick: function (pageNumber) {
+                var showFromList = perPageList * (pageNumber - 1);
+                var showToList = showFromList + perPageList;
+                itemsList.hide().slice(showFromList, showToList).show();
+            }
+        });
+        
     //=======================================================================
     // Gallery Image Popup
     //=======================================================================
