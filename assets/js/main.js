@@ -109,17 +109,17 @@ $(document).ready(function(){
     //=======================================================================
     // Portfolio Isotop Data Filter
     //=======================================================================
-    $('.popular-class-buttons').on( 'click', '.class-filter-btn', function() {
-        $(this).addClass('active').siblings().removeClass('active');
-        var filterValue = $(this).attr('data-filter');
-        $('.popular-classes-wrapper').isotope({ filter: filterValue });
-    });
-    $('.popular-classes-wrapper').imagesLoaded( function() {
-        $('.popular-classes-wrapper').isotope({
-            itemSelector: '.popular-class-item',
-            layoutMode: 'packery',
-        });
-    });
+    // $('.popular-class-buttons').on( 'click', '.class-filter-btn', function() {
+    //     $(this).addClass('active').siblings().removeClass('active');
+    //     var filterValue = $(this).attr('data-filter');
+    //     $('.popular-classes-wrapper').isotope({ filter: filterValue });
+    // });
+    // $('.popular-classes-wrapper').imagesLoaded( function() {
+    //     $('.popular-classes-wrapper').isotope({
+    //         itemSelector: '.popular-class-item',
+    //         layoutMode: 'packery',
+    //     });
+    // });
 
     //=======================================================================
     // Gallery Image Popup

@@ -4192,19 +4192,10 @@ span.subDropdown.plus:before {
 .checkout-form {
   height: 55px;
   width: 100%;
-<<<<<<< HEAD
   background-color: #f3f4f8;
   color: #0e1133;
   font-size: 15px;
   padding: 0 25px;
-=======
-  height: 35px;
-  background: #e9e9e9;
-  border: 1px solid #e9e9e9;
-  font-size: 14px;
-  color: #717171;
-  outline: none;
->>>>>>> 902d4fa9504a44e0bc712f3909692e48a4b97922
 }
 .checkout-form:invalid {
   color: rgba(113, 113, 113, 0.75);
@@ -6605,6 +6596,13 @@ html .ui-button.ui-state-disabled:active {
   flex-grow: 1;
   height: 60px;
   line-height: 58px;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
 }
 
 /*col-lg*/
